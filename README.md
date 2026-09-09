@@ -24,3 +24,7 @@ Best Voice Actor
 Best Cinematography
 Best Original Music
 Jam ends October 1st, 2026 and judging ends October 28th, 2026!  Extensions are not available for issues with uploads conducted within the final 24 hours.  Upload early and update often!
+
+-------------------------------------------idea----------------------------------------------------
+
+You are an apartment cleaning service and was hired into do a job. You are given a list of tasks to complete by the owner. Your goal is to complete it by a certain time and get paid or is it? Throughout your cleaning sessions you will be given a few clues into what kind of person the owner is and your real goal is to actually find out how to get out of the apartment unscathed.  
