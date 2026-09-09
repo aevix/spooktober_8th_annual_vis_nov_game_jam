@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpexdu7se8o05"
+path="res://.godot/imported/(Ambience) Through the eyes of the Doll.wav-23ec25f5f898f7be14ebcbce7346ec22.sample"
+
+[deps]
+
+source_file="res://asset/Yet Another Atmospheric Horror Music Pack (WAV)/(Ambience) Through the eyes of the Doll.wav"
+dest_files=["res://.godot/imported/(Ambience) Through the eyes of the Doll.wav-23ec25f5f898f7be14ebcbce7346ec22.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

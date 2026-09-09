@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b4yw4x84gqd15"
+path="res://.godot/imported/What Clouds Are Made Of.ogg-04129edae491f23e46e875ef5bd65ada.oggvorbisstr"
+
+[deps]
+
+source_file="res://asset/Cozy Tunes v1.5.4/Cozy Tunes/Audio/ogg/What Clouds Are Made Of.ogg"
+dest_files=["res://.godot/imported/What Clouds Are Made Of.ogg-04129edae491f23e46e875ef5bd65ada.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

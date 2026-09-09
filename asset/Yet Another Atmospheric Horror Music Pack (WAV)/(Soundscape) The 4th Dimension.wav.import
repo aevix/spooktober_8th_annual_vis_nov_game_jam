@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7vefkehuvgy"
+path="res://.godot/imported/(Soundscape) The 4th Dimension.wav-90608b492143591af0149c1cbc96732c.sample"
+
+[deps]
+
+source_file="res://asset/Yet Another Atmospheric Horror Music Pack (WAV)/(Soundscape) The 4th Dimension.wav"
+dest_files=["res://.godot/imported/(Soundscape) The 4th Dimension.wav-90608b492143591af0149c1cbc96732c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

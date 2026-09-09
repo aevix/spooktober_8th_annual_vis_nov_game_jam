@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://brs3k35r67gs8"
+path="res://.godot/imported/Floating Dream.ogg-f8ad48ba1154b39d412a83b24f46d711.oggvorbisstr"
+
+[deps]
+
+source_file="res://asset/Cozy Tunes v1.5.4/Cozy Tunes/Audio/ogg/Floating Dream.ogg"
+dest_files=["res://.godot/imported/Floating Dream.ogg-f8ad48ba1154b39d412a83b24f46d711.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

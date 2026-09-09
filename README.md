@@ -1,6 +1,13 @@
 # spooktober_8th_annual_vis_nov_game_jam
 
+Asset Pack Credits:
+	- Music: 
+		- https://pizzadoggy.itch.io/cozy-tunes
+	- Graphics:
+		- https://shubibubi.itch.io/
+
 THEMES
+
 In this Game Jam, you are tasked for completing a spooky or Halloween themed visual novel. This could mean...
 
 A Horror Genre Visual Novel
