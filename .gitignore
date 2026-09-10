@@ -1,3 +1,4 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+asset/big_assets/
