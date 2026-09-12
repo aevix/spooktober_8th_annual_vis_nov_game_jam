@@ -1,0 +1,120 @@
+[gd_scene format=3 uid="uid://blygt5wywhdy5"]
+
+[ext_resource type="Script" uid="uid://0qqmggq0rx5h" path="res://dialog_script.gd" id="1_jbrhi"]
+[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="2_78wru"]
+[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="2_oaiuy"]
+[ext_resource type="Texture2D" uid="uid://bbklt3ucxlwmb" path="res://icon.svg" id="2_th4p3"]
+[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="3_a8i1b"]
+[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="4_qf4in"]
+[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="5_m2key"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_oxu2u"]
+font = ExtResource("2_78wru")
+font_size = 8
+font_color = Color(1, 0.656514, 0.995782, 1)
+
+[sub_resource type="Theme" id="Theme_jbrhi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_th4p3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_78wru"]
+bg_color = Color(1, 0.279365, 0.575297, 1)
+
+[node name="DialogSystem" type="Control" unique_id=502920662]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -6.0
+offset_top = 15.0
+offset_right = -6.0
+offset_bottom = 15.0
+size_flags_stretch_ratio = 0.0
+script = ExtResource("1_jbrhi")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1377080404]
+scale = Vector2(3, 3)
+transform = Transform2D(3, 0, 0, 3, 0, 0)
+
+[node name="Panel" type="Panel" parent="CanvasLayer" unique_id=1152687316]
+offset_left = 49.666668
+offset_top = 215.66666
+offset_right = 591.8334
+offset_bottom = 341.83334
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Panel" unique_id=1641761030]
+layout_mode = 0
+offset_left = 63.666668
+offset_top = 27.000021
+offset_right = 537.3333
+offset_bottom = 119.33335
+theme_override_fonts/normal_font = ExtResource("2_oaiuy")
+theme_override_fonts/bold_font = ExtResource("3_a8i1b")
+theme_override_fonts/bold_italics_font = ExtResource("4_qf4in")
+theme_override_fonts/italics_font = ExtResource("5_m2key")
+theme_override_font_sizes/normal_font_size = 12
+theme_override_font_sizes/bold_font_size = 12
+theme_override_font_sizes/bold_italics_font_size = 12
+theme_override_font_sizes/italics_font_size = 12
+text = "this is a test text until we figure out what to put in here"
+fit_content = true
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel" unique_id=1902298164]
+layout_mode = 0
+offset_left = 62.666664
+offset_top = 7.0
+offset_right = 162.66666
+offset_bottom = 19.833336
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("2_oaiuy")
+theme_override_font_sizes/font_size = 12
+text = "testing :"
+label_settings = SubResource("LabelSettings_oxu2u")
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=1330717735]
+layout_mode = 0
+offset_left = 7.3333335
+offset_top = 30.666668
+offset_right = 57.333332
+offset_bottom = 80.66667
+texture = ExtResource("2_th4p3")
+expand_mode = 2
+
+[node name="player_choice" type="CanvasGroup" parent="CanvasLayer/Panel" unique_id=1223565285]
+visible = false
+position = Vector2(-55.666668, -214.66667)
+
+[node name="option1" type="Button" parent="CanvasLayer/Panel/player_choice" unique_id=593569167]
+offset_left = 285.66666
+offset_top = 314.66666
+offset_right = 368.66666
+offset_bottom = 330.66666
+theme_override_fonts/font = ExtResource("2_78wru")
+theme_override_font_sizes/font_size = 8
+text = "Yes I will help!"
+
+[node name="option2" type="Button" parent="CanvasLayer/Panel/player_choice" unique_id=807889344]
+offset_left = 436.66666
+offset_top = 315.66666
+offset_right = 461.66666
+offset_bottom = 331.66666
+theme_override_fonts/font = ExtResource("2_78wru")
+theme_override_font_sizes/font_size = 8
+text = "Nah"
+
+[node name="OptionTimer" type="Timer" parent="CanvasLayer/Panel/player_choice" unique_id=1706569055]
+unique_name_in_owner = true
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer/Panel/player_choice" unique_id=799686836]
+unique_name_in_owner = true
+offset_left = 150.66667
+offset_top = 318.66666
+offset_right = 203.66667
+offset_bottom = 328.66666
+theme = SubResource("Theme_jbrhi")
+theme_override_styles/background = SubResource("StyleBoxFlat_th4p3")
+theme_override_styles/fill = SubResource("StyleBoxFlat_78wru")
+value = 100.0
+show_percentage = false
+
+[connection signal="button_down" from="CanvasLayer/Panel/player_choice/option1" to="." method="_on_option_1_button_down"]
+[connection signal="button_down" from="CanvasLayer/Panel/player_choice/option2" to="." method="_on_option_2_button_down"]
+[connection signal="timeout" from="CanvasLayer/Panel/player_choice/OptionTimer" to="." method="_on_option_timer_timeout"]
