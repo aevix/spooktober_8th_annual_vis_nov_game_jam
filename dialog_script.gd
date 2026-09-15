@@ -1,6 +1,7 @@
 extends Control
 var dialog_json
 var next
+var options
 var choice
 const option_timer = 10.0
 var timer_started = false
@@ -27,14 +28,29 @@ func read_json_file(file_path):
 
 func process_dialog():
 	if not dialog_json:
+		#initializing dialog object if this is intial instantiation of dialog
 		dialog_json = read_json_file("res://dialog/{map}.json".format({"map": Global.current_scene}))
 		$CanvasLayer/Panel/RichTextLabel.text = dialog_json["Text"]
 		$CanvasLayer/Panel/Label.text = dialog_json["Char"] + ":"
+		# Load and assign a new texture
+		$CanvasLayer/Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": dialog_json["Char"]}))
 		next = dialog_json["Next"]
+		options = dialog_json["Options"]
+	elif options == false:
+		#This is for dialog options that doesn't have a choice
+		var script_path = dialog_json[next[0]]
+		$CanvasLayer/Panel/RichTextLabel.text = script_path["Text"]
+		$CanvasLayer/Panel/Label.text = script_path["Char"] + ":"
+		$CanvasLayer/Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": script_path["Char"]}))
+		next = script_path["Next"]
+		if next:
+			print(script_path)
+			#dialog_json = dialog_json[next[0]]
 	elif next:
-		dialog_json = dialog_json[next[choice]]
-		$CanvasLayer/Panel/RichTextLabel.text = dialog_json["Text"]
-		$CanvasLayer/Panel/Label.text = dialog_json["Char"] + ":"
+		var script_path = dialog_json[next[choice]]
+		$CanvasLayer/Panel/RichTextLabel.text = script_path["Text"]
+		$CanvasLayer/Panel/Label.text = script_path["Char"] + ":"
+		$CanvasLayer/Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": script_path["Char"]}))
 		next = dialog_json["Next"]
 		if next:
 		# depending on player selection it can go to next 0 or 1 for now it is set to just 1 I will have to modify this later

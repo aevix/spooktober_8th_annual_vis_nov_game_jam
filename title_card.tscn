@@ -3,12 +3,14 @@
 [ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="1_1svst"]
 [ext_resource type="Texture2D" uid="uid://cowylcehfdp7n" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/03.png" id="1_j6hyl"]
 [ext_resource type="FontFile" uid="uid://cn2u8bl5tj8vt" path="res://asset/font/League_Gothic/static/LeagueGothic-Regular.ttf" id="1_pe4mo"]
+[ext_resource type="Script" uid="uid://daa6pmtq1uxqf" path="res://title_card.gd" id="1_ucqqr"]
 
 [node name="title_card" type="Control" unique_id=763205993]
 layout_mode = 3
 anchors_preset = 0
+script = ExtResource("1_ucqqr")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1004945553]
+[node name="background" type="Sprite2D" parent="." unique_id=1004945553]
 position = Vector2(639, 347)
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("1_j6hyl")
@@ -33,12 +35,12 @@ offset_right = 121.0
 offset_bottom = 95.0
 text = "Sound"
 
-[node name="play" type="Label" parent="." unique_id=1523001486]
+[node name="play" type="Button" parent="." unique_id=651586481]
 layout_mode = 0
 offset_left = 667.0
 offset_top = 542.0
-offset_right = 707.0
-offset_bottom = 565.0
+offset_right = 708.0
+offset_bottom = 573.0
 text = "Play"
 
 [node name="score" type="Label" parent="." unique_id=1539420261]
@@ -51,3 +53,8 @@ theme_override_fonts/font = ExtResource("1_pe4mo")
 text = "0/13 Scenes Unlocked"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2140633100]
+position = Vector2(644, 361)
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]

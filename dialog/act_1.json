@@ -1,0 +1,158 @@
+{
+	"Char": "Narrator",
+	"Text": "The family had lived about a year in this retirement, when the merchant received a letter, with an account that a vessel, on board of which he had effects, was safely arrived.",
+	"Options": false,
+	"Next": [
+		"cont_1"
+	],
+	"cont_1": {
+		"Char": "Narrator",
+		"Text": "This news had liked to have turned the heads of the two eldest daughters, who immediately flattered themselves with the hopes of returning to town; for they were quite weary of a country life; and when they saw their father ready to set out, they begged of him to buy them new gowns, caps, rings, and all manner of trifles; but Sophia asked for nothing, for she thought to herself, that all the money her father was going to receive would scarce be sufficient to purchase every thing her sisters wanted.",
+		"Options": false,
+		"Next": ["cont_2"]
+	},
+	"cont_2": {
+		"Char": "Samuel",
+		"Text": "What will you have, Sophia?",
+		"Options": false,
+		"Next": ["cont_3"]
+	},
+	"cont_3": {
+		"Char": "Sophia",
+		"Text": "Since you are so kind as to think of me, could you be so kind as to bring me a rose, for as none grow hereabouts, they are a kind of rarity",
+		"Options": false,
+		"Next": ["cont_4"]
+	},
+	"cont_4": {
+		"Char": "Violet",
+		"Text": "Ha! A rose? Always trying to seem sophisticated and different! I am sick of this, lets go Eleanor.",
+		"Options": false,
+		"Next": ["cont_5"]
+	},
+	"cont_5": {
+		"Char": "Narrator",
+		"Text": "He was within thirty miles of his own house, thinking on the pleasure he should have in seeing his children again, when going through a large forest he lost himself.",
+		"Options": false,
+		"Next": ["cont_6"]
+	},
+	"cont_6": {
+		"Char": "Narrator",
+		"Text": "It rained and snowed terribly, besides, the wind was so high, that it threw him twice off his horse; and night coming on, he began to apprehend being either starved to death with cold and hunger, or else devoured by the wolves, whom he heard howling all around him, when, on a sudden, looking through a long walk of trees, he saw a light at some distance, and going on a little farther, perceived it came from a palace illuminated from top to bottom.",
+		"Options": false,
+		"Next": ["cont_7"]
+	},
+	"cont_7": {
+		"Char": "Narrator",
+		"Text": "The merchant returned God thanks for this happy discovery, and hasted to the palace; but was greatly surprised at not meeting with anyone in the out-courts.",
+		"Options": false,
+		"Next": ["cont_8"]
+	},
+	"cont_8": {
+		"Char": "Samuel",
+		"Text": "Hello? Anyone here? The wind is bitterly cold and my horse is in need of shelter hope you don't mind...",
+		"Options": false,
+		"Next": ["cont_9"]
+	},
+	"cont_9": {
+		"Char": "Narrator",
+		"Text": "His horse followed him, and seeing a large stable open, went in, and finding both hay and oats, the poor beast, who was almost famished, fell to eating very heartily.",
+		"Options": false,
+		"Next": ["cont_10"]
+	},
+	"cont_10": {
+		"Char": "Narrator",
+		"Text": "The merchant tied him up to the manger, and walked towards the house, where he saw no one, but entering into a large hall, he found a good fire, and a table plentifully set out, with but one cover laid.",
+		"Options": false,
+		"Next": ["cont_11"]
+	},
+	"cont_11": {
+		"Char": "Samuel",
+		"Text": "I hope, the master of the house, or his servants, will excuse the liberty I take. I suppose it will not be long before some of them appear.",
+		"Options": false,
+		"Next": ["cont_12"]
+	},
+	"cont_12": {
+		"Char": "Narrator",
+		"Text": "He waited a considerable time, till it struck eleven, and still nobody came: at last he was so hungry that he could stay no longer, but took a chicken and ate it in two mouthfuls, trembling all the while. After this, he drank a few glasses of wine, and growing more courageous, he went out of the hall, and crossed through several grand apartments with magnificent furniture, till he came into a chamber, which had an exceeding good bed in it, and as he was very much fatigued, and it was past midnight, he concluded it was best to shut the door, and go to bed",
+		"Options": false,
+		"Next": ["cont_13"]
+	},
+	"cont_13": {
+		"Char": "Narrator",
+		"Text": "It was ten the next morning before the merchant waked, and as he was going to rise, he was astonished to see a good suit of clothes in the room of his own, which were quite spoiled.",
+		"Options": false,
+		"Next": ["cont_14"]
+	},
+	"cont_14": {
+		"Char": "Samuel",
+		"Text": "Certainly, this palace belongs to some kind fairy, who has seen and pitied my distress.",
+		"Options": false,
+		"Next": ["cont_15"]
+	},
+	"cont_15": {
+		"Char": "Narrator",
+		"Text": "He looked through a window, but instead of snow saw the most delightful arbours, interwoven with the most beautiful flowers that ever were beheld. He then returned to the great hall, where he had supped the night before, and found some chocolate ready made on a little table.",
+		"Options": false,
+		"Next": ["cont_16"]
+	},
+	"cont_16": {
+		"Char": "Narrator",
+		"Text": "Thank you, good Madam Fairy, for being so careful as to provide me a breakfast! I am extremely obliged to you for all your favours.",
+		"Options": false,
+		"Next": ["cont_17"]
+	},
+	"cont_17": {
+		"Char": "Narrator",
+		"Text": "The good man drank his chocolate, and then went to look for his horse; but passing through an arbour of roses, he remembered Beauty's request to him, and gathered a branch on which were several.",
+		"Options": false,
+		"Next": ["cont_18"]
+	},
+	"cont_18": {
+		"Char": "Narrator",
+		"Text": "Immediately he heard a great noise, and saw such a frightful beast coming towards him, that he was ready to faint away.",
+		"Options": false,
+		"Next": ["cont_19"]
+	},
+	"cont_19": {
+		"Char": "Beast",
+		"Text": "You are very ungrateful. *Hoot* I have saved your life by receiving you into my castle, and, in return, you steal my roses, which I value beyond any thing in the universe!",
+		"Options": false,
+		"Next": ["cont_20"]
+	},
+	"cont_20": {
+		"Char": "Beast",
+		"Text": "You shall die for it! I give you but a quarter of an hour to prepare yourself, to say your prayers.",
+		"Options": false,
+		"Next": ["cont_21"]
+	},
+	"cont_21": {
+		"Char": "Samuel",
+		"Text": "My Lord, I beseech you to forgive me, indeed I had no intention to offend in gathering a rose for one of my daughters, who desired me to bring her one",
+		"Options": false,
+		"Next": ["cont_22"]
+	},
+	"cont_22": {
+		"Char": "Beast",
+		"Text": "My name is not My Lord, but Beast! *Hoot* I don't love compliments, not I. I like people should speak as they think! *Hoot* and so do not imagine I am to be moved by any of your flattering speeches!",
+		"Options": false,
+		"Next": ["cont_23"]
+	},
+	"cont_23": {
+		"Char": "Beast",
+		"Text": "But you say you have got daughters... I will forgive you, on condition that one of them come willingly, and suffer for you.",
+		"Options": false,
+		"Next": ["cont_24"]
+	},
+	"cont_24": {
+		"Char": "Beast",
+		"Text": "Let me have no words, but go about your business, and swear that if your daughter refuse to die in your stead, you will return within three months.",
+		"Options": false,
+		"Next": ["cont_25"]
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "The merchant had no mind to sacrifice his daughters to the ugly monster, but he thought, in obtaining this respite, he should have the satisfaction of seeing them once more",
+		"Options": false,
+		"Next": ["cont_2"]
+	}
+}
