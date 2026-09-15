@@ -1,17 +1,10 @@
 [gd_scene format=3 uid="uid://blygt5wywhdy5"]
 
 [ext_resource type="Script" uid="uid://0qqmggq0rx5h" path="res://dialog_script.gd" id="1_jbrhi"]
-[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="2_78wru"]
-[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="2_oaiuy"]
+[ext_resource type="FontFile" uid="uid://btiluy0vwgpmm" path="res://asset/font/League_Gothic/static/LeagueGothic_Condensed-Regular.ttf" id="2_sg4qp"]
 [ext_resource type="Texture2D" uid="uid://bbklt3ucxlwmb" path="res://icon.svg" id="2_th4p3"]
-[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="3_a8i1b"]
-[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="4_qf4in"]
+[ext_resource type="FontFile" uid="uid://cn2u8bl5tj8vt" path="res://asset/font/League_Gothic/static/LeagueGothic-Regular.ttf" id="3_hc0u1"]
 [ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="5_m2key"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_oxu2u"]
-font = ExtResource("2_78wru")
-font_size = 8
-font_color = Color(1, 0.656514, 0.995782, 1)
 
 [sub_resource type="Theme" id="Theme_jbrhi"]
 
@@ -31,43 +24,53 @@ size_flags_stretch_ratio = 0.0
 script = ExtResource("1_jbrhi")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1377080404]
-scale = Vector2(3, 3)
-transform = Transform2D(3, 0, 0, 3, 0, 0)
+scale = Vector2(2.3, 2.3)
+transform = Transform2D(2.3, 0, 0, 2.3, 0, 0)
 
 [node name="Panel" type="Panel" parent="CanvasLayer" unique_id=1152687316]
-offset_left = 49.666668
-offset_top = 215.66666
-offset_right = 591.8334
-offset_bottom = 341.83334
+offset_left = 7.3913045
+offset_top = 179.56522
+offset_right = 549.55804
+offset_bottom = 305.7319
 
 [node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Panel" unique_id=1641761030]
 layout_mode = 0
 offset_left = 63.666668
 offset_top = 27.000021
-offset_right = 537.3333
-offset_bottom = 119.33335
-theme_override_fonts/normal_font = ExtResource("2_oaiuy")
-theme_override_fonts/bold_font = ExtResource("3_a8i1b")
-theme_override_fonts/bold_italics_font = ExtResource("4_qf4in")
-theme_override_fonts/italics_font = ExtResource("5_m2key")
-theme_override_font_sizes/normal_font_size = 12
-theme_override_font_sizes/bold_font_size = 12
-theme_override_font_sizes/bold_italics_font_size = 12
-theme_override_font_sizes/italics_font_size = 12
+offset_right = 1003.28986
+offset_bottom = 206.04347
+scale = Vector2(0.5, 0.5)
+theme_override_fonts/normal_font = ExtResource("5_m2key")
+theme_override_fonts/bold_font = ExtResource("3_hc0u1")
+theme_override_fonts/bold_italics_font = ExtResource("2_sg4qp")
+theme_override_fonts/italics_font = ExtResource("3_hc0u1")
+theme_override_fonts/mono_font = ExtResource("2_sg4qp")
+theme_override_font_sizes/normal_font_size = 29
+theme_override_font_sizes/bold_font_size = 16
+theme_override_font_sizes/bold_italics_font_size = 16
+theme_override_font_sizes/italics_font_size = 16
+theme_override_font_sizes/mono_font_size = 16
 text = "this is a test text until we figure out what to put in here"
 fit_content = true
 
-[node name="Label" type="Label" parent="CanvasLayer/Panel" unique_id=1902298164]
+[node name="Label" type="RichTextLabel" parent="CanvasLayer/Panel" unique_id=1329109593]
 layout_mode = 0
-offset_left = 62.666664
-offset_top = 7.0
-offset_right = 162.66666
-offset_bottom = 19.833336
-scale = Vector2(2, 2)
-theme_override_fonts/font = ExtResource("2_oaiuy")
-theme_override_font_sizes/font_size = 12
-text = "testing :"
-label_settings = SubResource("LabelSettings_oxu2u")
+offset_left = 59.565224
+offset_top = 2.6086884
+offset_right = 180.43478
+offset_bottom = 47.826126
+scale = Vector2(0.5, 0.5)
+theme_override_fonts/normal_font = ExtResource("2_sg4qp")
+theme_override_fonts/bold_font = ExtResource("3_hc0u1")
+theme_override_fonts/bold_italics_font = ExtResource("3_hc0u1")
+theme_override_fonts/italics_font = ExtResource("3_hc0u1")
+theme_override_fonts/mono_font = ExtResource("3_hc0u1")
+theme_override_font_sizes/normal_font_size = 31
+theme_override_font_sizes/bold_font_size = 16
+theme_override_font_sizes/bold_italics_font_size = 16
+theme_override_font_sizes/italics_font_size = 16
+theme_override_font_sizes/mono_font_size = 16
+text = "testing"
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=1330717735]
 layout_mode = 0
@@ -87,7 +90,7 @@ offset_left = 285.66666
 offset_top = 314.66666
 offset_right = 368.66666
 offset_bottom = 330.66666
-theme_override_fonts/font = ExtResource("2_78wru")
+theme_override_fonts/font = ExtResource("5_m2key")
 theme_override_font_sizes/font_size = 8
 text = "Yes I will help!"
 
@@ -96,7 +99,7 @@ offset_left = 436.66666
 offset_top = 315.66666
 offset_right = 461.66666
 offset_bottom = 331.66666
-theme_override_fonts/font = ExtResource("2_78wru")
+theme_override_fonts/font = ExtResource("5_m2key")
 theme_override_font_sizes/font_size = 8
 text = "Nah"
 

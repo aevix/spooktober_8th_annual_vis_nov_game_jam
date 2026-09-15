@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dd5pyk4jaddbt"]
+
+[ext_resource type="Texture2D" uid="uid://lctim56ej1xh" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/02.png" id="1_5ogn7"]
+[ext_resource type="Script" uid="uid://bibwyvxjx4y46" path="res://act_1.gd" id="1_7aoxw"]
+
+[node name="act_1" type="Control" unique_id=1381019494]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_7aoxw")
+
+[node name="background" type="Sprite2D" parent="." unique_id=905962060]
+position = Vector2(650, 362)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_5ogn7")

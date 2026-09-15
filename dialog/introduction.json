@@ -1,0 +1,110 @@
+{
+	"Char": "Narrator",
+	"Text": "There was once a very rich merchant, who had three daughters.",
+	"Options": false,
+	"Next": [
+		"cont_1"
+	],
+	"cont_1": {
+		"Char": "Narrator",
+		"Text": "Being a man of sense, he spared no cost for their education, but gave them all kinds of masters. His daughters were extremely handsome, especially the youngest.",
+		"Options": false,
+		"Next": ["cont_2"]
+	},
+	"cont_2": {
+		"Char": "Narrator",
+		"Text": "When she was little, every body admired her, and called her The little Beauty. Her father gave her the name Sophia after her late mother, which made her sisters very jealous.",
+		"Options": false,
+		"Next": ["cont_3"]
+	},
+	"cont_3": {
+		"Char": "Narrator",
+		"Text": "The two eldest had a great deal of pride, because they were rich. They gave themselves ridiculous airs, and would not visit other merchants' daughters, nor keep company with any but persons of quality.",
+		"Options": false,
+		"Next": ["cont_4"]
+	},
+	"cont_4": {
+		"Char": "Narrator",
+		"Text": "They went out every day upon parties of pleasure, balls, plays, concerts, etc. and laughed at their youngest sister, because she spent the greatest part of her time in reading good books.",
+		"Options": false,
+		"Next": ["cont_5"]
+	},
+	"cont_5": {
+		"Char": "Eleanor",
+		"Text": "You won't get anywhere in life with having your nose pressed up against books you know... ",
+		"Options": false,
+		"Next": ["cont_6"]
+	},
+	"cont_6": {
+		"Char": "Violet",
+		"Text": "Leave her be, she'd rather marry a book then prince charming.",
+		"Options": false,
+		"Next": ["cont_7"]
+	},
+	"cont_7": {
+		"Char": "Sophia",
+		"Text": "...",
+		"Options": false,
+		"Next": ["cont_8"]
+	},
+	"cont_8": {
+		"Char": "Narrator",
+		"Text": "Days and months continued as it always had for Sophia burried in books and her sisters going on endless outings. But all that would change when all at once the merchant lost his whole fortune, excepting a small country-house at a great distance from town, and told his children, with tears in his eyes, they most go there and work for their living.",
+		"Options": false,
+		"Next": ["cont_9"]
+	},
+	"cont_9": {
+		"Char": "Samuel",
+		"Text": "Girls, gather around, I have something to tell you... The vessel that I had purchased has sunk during the voyage... we lost everything...",
+		"Options": false,
+		"Next": ["cont_10"]
+	},
+	"cont_10": {
+		"Char": "Violet",
+		"Text": "So? Just go buy another boat. I don't know why you are being so dramatic about it.",
+		"Options": false,
+		"Next": ["cont_11"]
+	},
+	"cont_11": {
+		"Char": "Samuel",
+		"Text": "There is no money to fund another voyage. I was able to scrape the little money and purchase a small cottage out side of town. We will start over...",
+		"Options": false,
+		"Next": ["cont_12"]
+	},
+	"cont_12": {
+		"Char": "Sophia",
+		"Text": "Those poor men... Were there any survivors?",
+		"Options": false,
+		"Next": ["cont_13"]
+	},
+	"cont_13": {
+		"Char": "Violet",
+		"Text": "Survivors!? Who cares about survivors! What do you mean we have to start over? I was just about to go on a date with Joseph and now what will he think of me now that I am poor!",
+		"Options": false,
+		"Next": ["cont_14"]
+	},
+	"cont_14": {
+		"Char": "Narrator",
+		"Text": "The two eldest protested that they would not leave the town, for they had several lovers, who they were sure would be glad to have them, though they had no fortune; but in this they were mistaken, for their lovers slighted and forsook them in their poverty.",
+		"Options": false,
+		"Next": ["cont_15"]
+	},
+	"cont_15": {
+		"Char": "Cobbler",
+		"Text": "They do not deserve to be pitied, we are glad to see their pride humbled, let them go and give themselves quality airs in milking the cows and minding their dairy",
+		"Options": false,
+		"Next": ["cont_16"]
+	},
+	"cont_16": {
+		"Char": "Tailor",
+		"Text": "But I feel for Sophia, she was such a charming, sweet-tempered girl, spoke so friendly to everyone, and has such a kindred heart.",
+		"Options": false,
+		"Next": ["cont_17"]
+	},
+	"cont_17": {
+		"Char": "Cobbler",
+		"Text": "I heard several gentlemen would have married her, though they knew she had not a penny. She told them she could not think of leaving her poor father in his misfortunes, but was determined to go along with him into the country to comfort and attend him. It's a shame...",
+		"Options": false,
+		"Next": []
+	}
+}
