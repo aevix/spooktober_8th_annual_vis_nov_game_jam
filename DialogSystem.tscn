@@ -16,10 +16,10 @@ bg_color = Color(1, 0.279365, 0.575297, 1)
 [node name="DialogSystem" type="Control" unique_id=502920662]
 layout_mode = 3
 anchors_preset = 0
-offset_left = -6.0
-offset_top = 15.0
-offset_right = -6.0
-offset_bottom = 15.0
+offset_left = 102.0
+offset_top = 20.0
+offset_right = 102.0
+offset_bottom = 20.0
 size_flags_stretch_ratio = 0.0
 script = ExtResource("1_jbrhi")
 
@@ -28,9 +28,9 @@ scale = Vector2(2.3, 2.3)
 transform = Transform2D(2.3, 0, 0, 2.3, 0, 0)
 
 [node name="Panel" type="Panel" parent="CanvasLayer" unique_id=1152687316]
-offset_left = 7.3913045
+offset_left = 50.869564
 offset_top = 179.56522
-offset_right = 549.55804
+offset_right = 593.0363
 offset_bottom = 305.7319
 
 [node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Panel" unique_id=1641761030]

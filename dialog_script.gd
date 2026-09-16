@@ -9,7 +9,6 @@ var timer_started = false
 func _ready() -> void:
 	process_dialog()
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if timer_started and $CanvasLayer/Panel/player_choice.visible:
@@ -36,16 +35,15 @@ func process_dialog():
 		$CanvasLayer/Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": dialog_json["Char"]}))
 		next = dialog_json["Next"]
 		options = dialog_json["Options"]
-	elif options == false:
+	elif options == false and next:
 		#This is for dialog options that doesn't have a choice
 		var script_path = dialog_json[next[0]]
 		$CanvasLayer/Panel/RichTextLabel.text = script_path["Text"]
 		$CanvasLayer/Panel/Label.text = script_path["Char"] + ":"
 		$CanvasLayer/Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": script_path["Char"]}))
 		next = script_path["Next"]
-		if next:
-			print(script_path)
-			#dialog_json = dialog_json[next[0]]
+		#if next:
+			#script_path = dialog_json[next[0]]
 	elif next:
 		var script_path = dialog_json[next[choice]]
 		$CanvasLayer/Panel/RichTextLabel.text = script_path["Text"]
@@ -56,7 +54,10 @@ func process_dialog():
 		# depending on player selection it can go to next 0 or 1 for now it is set to just 1 I will have to modify this later
 			dialog_json = dialog_json[next[choice]]
 	else:
+		Global.current_scene = dialog_json["Next_Scene"]
 		self.queue_free()
+		SceneTransition.change_scene("res://{scene}.tscn".format({"scene": dialog_json["Next_Scene"]}))
+
 	if dialog_json["Options"]:
 		$CanvasLayer/Panel/player_choice.visible = true
 	else:

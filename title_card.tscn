@@ -37,11 +37,19 @@ text = "Sound"
 
 [node name="play" type="Button" parent="." unique_id=651586481]
 layout_mode = 0
-offset_left = 667.0
-offset_top = 542.0
-offset_right = 708.0
-offset_bottom = 573.0
+offset_left = 680.0
+offset_top = 544.0
+offset_right = 721.0
+offset_bottom = 575.0
 text = "Play"
+
+[node name="exit" type="Button" parent="." unique_id=452287180]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 544.0
+offset_right = 594.0
+offset_bottom = 575.0
+text = "Exit Story"
 
 [node name="score" type="Label" parent="." unique_id=1539420261]
 layout_mode = 0
@@ -58,3 +66,4 @@ vertical_alignment = 1
 position = Vector2(644, 361)
 
 [connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]

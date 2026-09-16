@@ -2,9 +2,8 @@
 	"Char": "Narrator",
 	"Text": "There was once a very rich merchant, who had three daughters.",
 	"Options": false,
-	"Next": [
-		"cont_1"
-	],
+	"Next_Scene": "act_1",
+	"Next": ["cont_1"],
 	"cont_1": {
 		"Char": "Narrator",
 		"Text": "Being a man of sense, he spared no cost for their education, but gave them all kinds of masters. His daughters were extremely handsome, especially the youngest.",
