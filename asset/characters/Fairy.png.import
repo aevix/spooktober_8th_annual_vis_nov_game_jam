@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4fucyc3txvvm"
-path="res://.godot/imported/Narrator.png-34a54bb8e2a24d42e6693052b9960a08.ctex"
+uid="uid://t8w7ylkl3ti2"
+path="res://.godot/imported/Fairy.png-df4f8fcff3054d339727fb61d82cc94e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/characters/Narrator.png"
-dest_files=["res://.godot/imported/Narrator.png-34a54bb8e2a24d42e6693052b9960a08.ctex"]
+source_file="res://asset/characters/Fairy.png"
+dest_files=["res://.godot/imported/Fairy.png-df4f8fcff3054d339727fb61d82cc94e.ctex"]
 
 [params]
 
