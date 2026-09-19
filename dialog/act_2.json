@@ -1,158 +1,254 @@
 {
 	"Char": "Narrator",
-	"Text": "The family had lived about a year in this retirement, when the merchant received a letter, with an account that a vessel, on board of which he had effects, was safely arrived.",
-	"Next_Scene": "title_card",
+	"Text": "The merchant rose early, and set out on his journey, and after travelling a few days, he arrived at the town where he had formerly lived, and was received with great joy by his family.",
+	"Next_Scene": "act_3",
 	"Options": false,
 	"Next": [
 		"cont_1"
 	],
 	"cont_1": {
 		"Char": "Narrator",
-		"Text": "This news had liked to have turned the heads of the two eldest daughters, who immediately flattered themselves with the hopes of returning to town; for they were quite weary of a country life; and when they saw their father ready to set out, they begged of him to buy them new gowns, caps, rings, and all manner of trifles; but Sophia asked for nothing, for she thought to herself, that all the money her father was going to receive would scarce be sufficient to purchase every thing her sisters wanted.",
+		"Text": "But, instead of receiving their embraces with pleasure, he looked on them, and, holding up the branch he had in his hands, he burst into tears",
 		"Options": false,
 		"Next": ["cont_2"]
 	},
 	"cont_2": {
 		"Char": "Samuel",
-		"Text": "What will you have, Sophia?",
+		"Text": "Here, Sophia, take these roses; but little do you think how dear they are like to cost your unhappy father",
 		"Options": false,
 		"Next": ["cont_3"]
 	},
 	"cont_3": {
-		"Char": "Sophia",
-		"Text": "Since you are so kind as to think of me, could you be so kind as to bring me a rose, for as none grow hereabouts, they are a kind of rarity",
+		"Char": "Narrator",
+		"Text": "He related his fatal adventure: immediately the two eldest set up lamentable outcries, and said all manner of ill-natured things to Sophia, who did not cry at all",
 		"Options": false,
 		"Next": ["cont_4"]
 	},
 	"cont_4": {
-		"Char": "Violet",
-		"Text": "Ha! A rose? Always trying to seem sophisticated and different! I am sick of this, lets go Eleanor.",
+		"Char": "Eleanor",
+		"Text": "Do but see the pride of that little wretch. She would not ask for fine clothes, as we did; but no, truly, Miss wanted to distinguish herself; so now she will be the death of our poor father, and yet she does not so much as shed a tear.",
 		"Options": false,
 		"Next": ["cont_5"]
 	},
 	"cont_5": {
-		"Char": "Narrator",
-		"Text": "He was within thirty miles of his own house, thinking on the pleasure he should have in seeing his children again, when going through a large forest he lost himself.",
+		"Char": "Sophia",
+		"Text": "Why should I, it would be very needless, for my father shall not suffer upon my account, since the monster will accept of one of his daughters, I will deliver myself up to all his fury, and I am very happy in thinking that my death will save my father's life, and be a proof of my tender love for him.",
 		"Options": false,
 		"Next": ["cont_6"]
 	},
 	"cont_6": {
-		"Char": "Narrator",
-		"Text": "It rained and snowed terribly, besides, the wind was so high, that it threw him twice off his horse; and night coming on, he began to apprehend being either starved to death with cold and hunger, or else devoured by the wolves, whom he heard howling all around him, when, on a sudden, looking through a long walk of trees, he saw a light at some distance, and going on a little farther, perceived it came from a palace illuminated from top to bottom.",
+		"Char": "Samuel",
+		"Text": "I am charmed with Sophia's kind and generous offer, but I cannot yield to it; I am old, and have not long to live, so can only lose a few years, which I regret for your sakes alone, my dear children.",
 		"Options": false,
 		"Next": ["cont_7"]
 	},
 	"cont_7": {
-		"Char": "Narrator",
-		"Text": "The merchant returned God thanks for this happy discovery, and hasted to the palace; but was greatly surprised at not meeting with anyone in the out-courts.",
+		"Char": "Sophia",
+		"Text": "Indeed, father, you shall not go to the palace without me, you cannot hinder me from following you.",
 		"Options": false,
 		"Next": ["cont_8"]
 	},
 	"cont_8": {
-		"Char": "Samuel",
-		"Text": "Hello? Anyone here? The wind is bitterly cold and my horse is in need of shelter hope you don't mind...",
+		"Char": "Narrator",
+		"Text": "It was to no purpose all they could say, Sophia still insisted on setting out for the fine palace; and her sisters were delighted at it, for her virtue and amiable qualities made them envious and jealous.",
 		"Options": false,
 		"Next": ["cont_9"]
 	},
 	"cont_9": {
 		"Char": "Narrator",
-		"Text": "His horse followed him, and seeing a large stable open, went in, and finding both hay and oats, the poor beast, who was almost famished, fell to eating very heartily.",
+		"Text": "The three months that the beast have given the merchant to return had passed swiftly, and merchant was preparing to return with Sophia to the castle hoping there will be some way to delay the voyage.",
 		"Options": false,
 		"Next": ["cont_10"]
 	},
 	"cont_10": {
 		"Char": "Narrator",
-		"Text": "The merchant tied him up to the manger, and walked towards the house, where he saw no one, but entering into a large hall, he found a good fire, and a table plentifully set out, with but one cover laid.",
+		"Text": "The horse took the direct road to the palace; and towards evening they perceived it illuminated as at first: the horse went of himself into the stable, and the good man and his daughter came into the great hall, where they found a table splendidly served up, and two covers.",
 		"Options": false,
 		"Next": ["cont_11"]
 	},
 	"cont_11": {
-		"Char": "Samuel",
-		"Text": "I hope, the master of the house, or his servants, will excuse the liberty I take. I suppose it will not be long before some of them appear.",
+		"Char": "Narrator",
+		"Text": "The merchant had no heart to eat; but Sophia endeavoured to appear cheerful, sat down to table, and helped him.",
 		"Options": false,
 		"Next": ["cont_12"]
 	},
 	"cont_12": {
-		"Char": "Narrator",
-		"Text": "He waited a considerable time, till it struck eleven, and still nobody came: at last he was so hungry that he could stay no longer, but took a chicken and ate it in two mouthfuls, trembling all the while. After this, he drank a few glasses of wine, and growing more courageous, he went out of the hall, and crossed through several grand apartments with magnificent furniture, till he came into a chamber, which had an exceeding good bed in it, and as he was very much fatigued, and it was past midnight, he concluded it was best to shut the door, and go to bed",
+		"Char": "Sophia",
+		"Text": "Beast surely has a mind to fatten me before he eats me, since he provides such a plentiful entertainment.",
 		"Options": false,
 		"Next": ["cont_13"]
 	},
 	"cont_13": {
 		"Char": "Narrator",
-		"Text": "It was ten the next morning before the merchant waked, and as he was going to rise, he was astonished to see a good suit of clothes in the room of his own, which were quite spoiled.",
+		"Text": "When they had supped, they heard a great noise, and the merchant, all in tears, bid his poor child farewell, for he thought Beast was coming. Sophia was sadly terrified at his horrid form, but she took courage as well as she could, and the monster having asked her if she came willingly",
 		"Options": false,
 		"Next": ["cont_14"]
 	},
 	"cont_14": {
-		"Char": "Samuel",
-		"Text": "Certainly, this palace belongs to some kind fairy, who has seen and pitied my distress.",
+		"Char": "Beast",
+		"Text": "*HOOT!*",
 		"Options": false,
 		"Next": ["cont_15"]
 	},
 	"cont_15": {
-		"Char": "Narrator",
-		"Text": "He looked through a window, but instead of snow saw the most delightful arbours, interwoven with the most beautiful flowers that ever were beheld. He then returned to the great hall, where he had supped the night before, and found some chocolate ready made on a little table.",
+		"Char": "Sophia",
+		"Text": "y—e—s,",
 		"Options": false,
 		"Next": ["cont_16"]
 	},
 	"cont_16": {
-		"Char": "Narrator",
-		"Text": "Thank you, good Madam Fairy, for being so careful as to provide me a breakfast! I am extremely obliged to you for all your favours.",
+		"Char": "Beast",
+		"Text": "You are very good, and I am greatly obliged to you; honest man, go your ways tomorrow morning, but never think of returning here again. Farewell, Sophia.",
 		"Options": false,
 		"Next": ["cont_17"]
 	},
 	"cont_17": {
-		"Char": "Narrator",
-		"Text": "The good man drank his chocolate, and then went to look for his horse; but passing through an arbour of roses, he remembered Beauty's request to him, and gathered a branch on which were several.",
+		"Char": "Sophia",
+		"Text": "Farewell, Beast.",
 		"Options": false,
 		"Next": ["cont_18"]
 	},
 	"cont_18": {
-		"Char": "Narrator",
-		"Text": "Immediately he heard a great noise, and saw such a frightful beast coming towards him, that he was ready to faint away.",
+		"Char": "Samuel",
+		"Text": "Oh, daughter, I am almost frightened to death; believe me, you had better go back, and let me stay here.",
 		"Options": false,
 		"Next": ["cont_19"]
 	},
 	"cont_19": {
-		"Char": "Beast",
-		"Text": "You are very ungrateful. *Hoot* I have saved your life by receiving you into my castle, and, in return, you steal my roses, which I value beyond any thing in the universe!",
+		"Char": "Sophia",
+		"Text": "No, father, you shall set out tomorrow morning, and leave me to the care and protection of Providence",
 		"Options": false,
 		"Next": ["cont_20"]
 	},
 	"cont_20": {
-		"Char": "Beast",
-		"Text": "You shall die for it! I give you but a quarter of an hour to prepare yourself, to say your prayers.",
+		"Char": "Narrator",
+		"Text": "They went to bed, and thought they should not close their eyes all night; but scarce were they laid down, than they fell fast asleep; and Sophia dreamed, a fine lady came",
 		"Options": false,
 		"Next": ["cont_21"]
 	},
 	"cont_21": {
-		"Char": "Samuel",
-		"Text": "My Lord, I beseech you to forgive me, indeed I had no intention to offend in gathering a rose for one of my daughters, who desired me to bring her one",
+		"Char": "Narrator",
+		"Text": "I am content, Sophia, with your good will; this good action of yours, in giving up your own life to save your father's, shall not go unrewarded.",
 		"Options": false,
 		"Next": ["cont_22"]
 	},
 	"cont_22": {
-		"Char": "Beast",
-		"Text": "My name is not My Lord, but Beast! *Hoot* I don't love compliments, not I. I like people should speak as they think! *Hoot* and so do not imagine I am to be moved by any of your flattering speeches!",
+		"Char": "Narrator",
+		"Text": "Sophia waked, and told her father her dream, and though it helped to comfort him a little, yet he could not help crying bitterly, when he took leave of his dear child.",
 		"Options": false,
 		"Next": ["cont_23"]
 	},
 	"cont_23": {
-		"Char": "Beast",
-		"Text": "But you say you have got daughters... I will forgive you, on condition that one of them come willingly, and suffer for you.",
+		"Char": "Narrator",
+		"Text": "As soon as he was gone, Sophia sat down in the great hall, and fell a crying likewise; but as she was mistress of a great deal of resolution, she recommended herself to God, and resolved not to be uneasy the little time she had to live; for she firmly believed Beast would eat her up that night.",
 		"Options": false,
 		"Next": ["cont_24"]
 	},
 	"cont_24": {
-		"Char": "Beast",
-		"Text": "Let me have no words, but go about your business, and swear that if your daughter refuse to die in your stead, you will return within three months.",
+		"Char": "Narrator",
+		"Text": "However, she thought she might as well walk about till then, and view this fine castle, which she could not help admiring; it was a delightful pleasant place, and she was extremely surprised at seeing a door, over which was wrote, \"Sophia's APARTMENT.\"",
 		"Options": false,
 		"Next": ["cont_25"]
 	},
 	"cont_25": {
 		"Char": "Narrator",
-		"Text": "The merchant had no mind to sacrifice his daughters to the ugly monster, but he thought, in obtaining this respite, he should have the satisfaction of seeing them once more",
+		"Text": "She opened it hastily, and was quite dazzled with the magnificence that reigned throughout; but what chiefly took up her attention, was a large library, a harpsichord, and several music books.",
+		"Options": false,
+		"Next": ["cont_26"]
+	},
+	"cont_26": {
+		"Char": "Sophia",
+		"Text": "Well, I see they will not let my time hang heavy on my hands for want of amusement.",
+		"Options": false,
+		"Next": ["cont_27"]
+	},
+	"cont_27": {
+		"Char": "Narrator",
+		"Text": "Were I but to stay here a day, there would not have been all these preparations.",
+		"Options": false,
+		"Next": ["cont_28"]
+	},
+	"cont_28": {
+		"Char": "Narrator",
+		"Text": "This consideration inspired her with fresh courage; and opening the library, she took a book, and read these words in letters of gold",
+		"Options": false,
+		"Next": ["cont_29"]
+	},
+	"cont_29": {
+		"Char": "Book",
+		"Text": "Welcome, Sophia, banish fear,\nYou are queen and mistress here;\nSpeak your wishes, speak your will,\nSwift obedience meets them still.",
+		"Options": false,
+		"Next": ["cont_30"]
+	},
+	"cont_30": {
+		"Char": "Sophia",
+		"Text": "Alas, there is nothing I desire so much as to see my poor father, and to know what he is doing.",
+		"Options": false,
+		"Next": ["cont_31"]
+	},
+	"cont_31": {
+		"Char": "Narrator",
+		"Text": "She had no sooner said this, when casting her eyes on a great looking-glass, to her great amazement she saw her own home, where her father arrived with a very dejected countenance; her sisters went to meet him, and, notwithstanding their endeavours to appear sorrowful, their joy, felt for having got rid of their sister, was visible in every feature: a moment after, every thing disappeared, and Sophia's apprehensions at this proof of Beast's complaisance.",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
+		"Options": false,
+		"Next": []
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "",
 		"Options": false,
 		"Next": []
 	}

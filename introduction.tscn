@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cotwuuiwbxd18" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/05.png" id="1_oqkmi"]
 [ext_resource type="Script" uid="uid://ca17lnv6q1gj8" path="res://introduction.gd" id="1_qebxn"]
+[ext_resource type="PackedScene" uid="uid://blygt5wywhdy5" path="res://DialogSystem.tscn" id="3_f37s4"]
 
 [node name="Control" type="Control" unique_id=1014178176]
 layout_mode = 3
@@ -11,6 +12,19 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_qebxn")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1530268236]
+
+[node name="DialogSystem" parent="CanvasLayer" unique_id=502920662 instance=ExtResource("3_f37s4")]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 95.0
+offset_top = 441.0
+offset_right = 95.0
+offset_bottom = 441.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="background" type="Sprite2D" parent="." unique_id=984974113]
 position = Vector2(640, 365)
