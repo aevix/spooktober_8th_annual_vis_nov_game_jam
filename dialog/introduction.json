@@ -36,7 +36,7 @@
 	},
 	"cont_6": {
 		"Char": "Violet",
-		"Text": "Leave her be, she'd rather marry a book then prince charming.",
+		"Text": "Leave her be, its not like anyone would want to marry her even if she wanted to, ha ha.",
 		"Options": false,
 		"Next": ["cont_7"]
 	},
@@ -59,14 +59,14 @@
 		"Next": ["cont_10"]
 	},
 	"cont_10": {
-		"Char": "Violet",
+		"Char": "Eleanor",
 		"Text": "So? Just go buy another boat. I don't know why you are being so dramatic about it.",
 		"Options": false,
 		"Next": ["cont_11"]
 	},
 	"cont_11": {
 		"Char": "Samuel",
-		"Text": "There is no money to fund another voyage. I was able to scrape the little money and purchase a small cottage out side of town. We will start over...",
+		"Text": "There is no money to fund another voyage. I was able to scrape a little bit of money and purchase a small cottage out side of town. We will have to start over...",
 		"Options": false,
 		"Next": ["cont_12"]
 	},
