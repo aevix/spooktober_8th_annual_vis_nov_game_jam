@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://lctim56ej1xh" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/02.png" id="1_5ogn7"]
 [ext_resource type="Script" uid="uid://bibwyvxjx4y46" path="res://act_1.gd" id="1_7aoxw"]
+[ext_resource type="PackedScene" uid="uid://blygt5wywhdy5" path="res://DialogSystem.tscn" id="3_b6rvi"]
 
 [node name="act_1" type="Control" unique_id=1381019494]
 layout_mode = 3
@@ -16,3 +17,11 @@ texture = ExtResource("1_5ogn7")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=794407254]
 position = Vector2(650, 362)
 scale = Vector2(0.7, 0.7)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=998280971]
+
+[node name="DialogSystem" parent="CanvasLayer" unique_id=502920662 instance=ExtResource("3_b6rvi")]
+offset_left = 106.0
+offset_top = 453.0
+offset_right = 106.0
+offset_bottom = 453.0

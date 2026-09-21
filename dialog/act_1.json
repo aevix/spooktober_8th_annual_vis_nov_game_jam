@@ -154,6 +154,12 @@
 		"Char": "Narrator",
 		"Text": "The merchant had no mind to sacrifice his daughters to the ugly monster, but he thought, in obtaining this respite, he should have the satisfaction of seeing them once more",
 		"Options": false,
+		"Next": ["cont_26"]
+	},
+	"cont_26": {
+		"Char": "Narrator",
+		"Text": "He promised upon oath, he would return, and the Beast told him he might set out when he pleased. He even provided the merchant with goods to carry home, and a purse of gold to make his journey more comfortable.",
+		"Options": false,
 		"Next": []
 	}
 }

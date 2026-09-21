@@ -1,0 +1,124 @@
+{
+	"Char": "Narrator",
+	"Text": "At noon she found dinner ready, and while at table, was entertained with an excellent concert of music, though without seeing any body",
+	"Next_Scene": "act_4",
+	"Options": false,
+	"Next": [
+		"cont_1"
+	],
+	"cont_1": {
+		"Char": "Narrator",
+		"Text": "but at night, as she was going to sit down to supper, she heard the noise Beast made; and could not help being sadly terrified.",
+		"Options": false,
+		"Next": ["cont_2"]
+	},
+	"cont_2": {
+		"Char": "Beast",
+		"Text": "Sophia, will you give me leave to see you sup?",
+		"Options": false,
+		"Next": ["cont_3"]
+	},
+	"cont_3": {
+		"Char": "Sophia",
+		"Text": "That is as you please.",
+		"Options": false,
+		"Next": ["cont_4"]
+	},
+	"cont_4": {
+		"Char": "Beast",
+		"Text": "No, you alone are mistress here; you need only bid me be gone, if my presence is troublesome, and I will immediately withdraw: but tell me, do not you think me very ugly?",
+		"Options": false,
+		"Next": ["cont_5"]
+	},
+	"cont_5": {
+		"Char": "Sophia",
+		"Text": "That is true, for I cannot tell a lie; but I believe you are very good-natured.",
+		"Options": false,
+		"Next": ["cont_6"]
+	},
+	"cont_6": {
+		"Char": "Beast",
+		"Text": "So I am, but then, besides my ugliness, I have no sense; I know very well that I am a poor, silly, stupid creature.",
+		"Options": false,
+		"Next": ["cont_7"]
+	},
+	"cont_7": {
+		"Char": "Sophia",
+		"Text": "Tis no sign of folly to think so, for never did fool know this, or had so humble a conceit of his own understanding.",
+		"Options": false,
+		"Next": ["cont_8"]
+	},
+	"cont_8": {
+		"Char": "Beast",
+		"Text": "Eat then, Sophia, and endeavour to amuse yourself in your palace; for every thing here is yours, and I should be very uneasy if you were not happy.",
+		"Options": false,
+		"Next": ["cont_9"]
+	},
+	"cont_9": {
+		"Char": "Sophia",
+		"Text": "You are very obliging, I own I am pleased with your kindness, and when I consider that, your deformity scarce appears.",
+		"Options": false,
+		"Next": ["cont_10"]
+	},
+	"cont_10": {
+		"Char": "Beast",
+		"Text": "Yes, yes, my heart is good, but still I am a monster.",
+		"Options": false,
+		"Next": ["cont_11"]
+	},
+	"cont_11": {
+		"Char": "Sophia",
+		"Text": "Among mankind, there are many that deserve that name more than you, and I prefer you, just as your are, to those, who, under a human form, hide a treacherous, corrupt, and ungrateful heart.",
+		"Options": false,
+		"Next": ["cont_12"]
+	},
+	"cont_12": {
+		"Char": "Beast",
+		"Text": "If I had sense enough, I would make a fine compliment to thank you, but I am so dull, that I can only say, I am greatly obliged to you.",
+		"Options": false,
+		"Next": ["cont_13"]
+	},
+	"cont_13": {
+		"Char": "Narrator",
+		"Text": "Sophia ate a hearty supper, and had almost conquered her dread of the monster. But then she nearly dropped her fork, when suddenly the Beast spoke.",
+		"Options": false,
+		"Next": ["cont_14"]
+	},
+	"cont_14": {
+		"Char": "Beast",
+		"Text": "Sophia, will you be my wife?",
+		"Options": false,
+		"Next": ["cont_15"]
+	},
+	"cont_15": {
+		"Char": "Narrator",
+		"Text": "She was some time before she durst answer; for she was afraid of making him angry, if she refused. At last, however, she said, trembling,",
+		"Options": false,
+		"Next": ["cont_16"]
+	},
+	"cont_16": {
+		"Char": "Sophia",
+		"Text": "No, Beast...",
+		"Options": false,
+		"Next": ["cont_17"]
+	},
+	"cont_17": {
+		"Char": "Beast",
+		"Text": "Then farewell, Sophia.",
+		"Options": false,
+		"Next": ["cont_18"]
+	},
+	"cont_18": {
+		"Char": "Narrator",
+		"Text": "He left the room; and only turned back, now and then, to look at her as he went out. When Sophia was alone, she felt a great deal of compassion for poor Beast.",
+		"Options": false,
+		"Next": ["cont_19"]
+	},
+	"cont_19": {
+		"Char": "Sophia",
+		"Text": "Alas, 'tis a thousand pities any thing so good-natured should be so ugly.",
+		"Options": false,
+		"Next": ["cont_20"]
+	},
+	
+}

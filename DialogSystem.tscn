@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://bbklt3ucxlwmb" path="res://icon.svg" id="2_th4p3"]
 [ext_resource type="FontFile" uid="uid://cn2u8bl5tj8vt" path="res://asset/font/League_Gothic/static/LeagueGothic-Regular.ttf" id="3_hc0u1"]
 [ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="5_m2key"]
+[ext_resource type="Script" uid="uid://bhcx5gutniwk4" path="res://rich_text_label.gd" id="5_re2ye"]
 
 [sub_resource type="Theme" id="Theme_jbrhi"]
 
@@ -23,22 +24,18 @@ offset_bottom = 20.0
 size_flags_stretch_ratio = 0.0
 script = ExtResource("1_jbrhi")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1377080404]
-scale = Vector2(2.3, 2.3)
-transform = Transform2D(2.3, 0, 0, 2.3, 0, 0)
-
-[node name="Panel" type="Panel" parent="CanvasLayer" unique_id=1152687316]
-offset_left = 50.869564
-offset_top = 179.56522
-offset_right = 593.0363
-offset_bottom = 305.7319
-
-[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Panel" unique_id=1641761030]
+[node name="Panel" type="Panel" parent="." unique_id=1152687316]
 layout_mode = 0
-offset_left = 63.666668
-offset_top = 27.000021
-offset_right = 1003.28986
-offset_bottom = 206.04347
+offset_right = 542.16675
+offset_bottom = 126.1667
+scale = Vector2(2, 2)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" unique_id=1641761030]
+layout_mode = 0
+offset_left = 71.0
+offset_top = 32.0
+offset_right = 1010.62317
+offset_bottom = 211.04346
 scale = Vector2(0.5, 0.5)
 theme_override_fonts/normal_font = ExtResource("5_m2key")
 theme_override_fonts/bold_font = ExtResource("3_hc0u1")
@@ -52,13 +49,14 @@ theme_override_font_sizes/italics_font_size = 16
 theme_override_font_sizes/mono_font_size = 16
 text = "this is a test text until we figure out what to put in here"
 fit_content = true
+script = ExtResource("5_re2ye")
 
-[node name="Label" type="RichTextLabel" parent="CanvasLayer/Panel" unique_id=1329109593]
+[node name="Label" type="RichTextLabel" parent="Panel" unique_id=1329109593]
 layout_mode = 0
-offset_left = 59.565224
-offset_top = 2.6086884
-offset_right = 180.43478
-offset_bottom = 47.826126
+offset_left = 71.0
+offset_top = 4.0
+offset_right = 191.86957
+offset_bottom = 49.217438
 scale = Vector2(0.5, 0.5)
 theme_override_fonts/normal_font = ExtResource("2_sg4qp")
 theme_override_fonts/bold_font = ExtResource("3_hc0u1")
@@ -72,20 +70,20 @@ theme_override_font_sizes/italics_font_size = 16
 theme_override_font_sizes/mono_font_size = 16
 text = "testing"
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=1330717735]
+[node name="TextureRect" type="TextureRect" parent="Panel" unique_id=1330717735]
 layout_mode = 0
-offset_left = 7.3333335
-offset_top = 30.666668
-offset_right = 57.333332
-offset_bottom = 80.66667
+offset_left = 12.0
+offset_top = 39.0
+offset_right = 62.000004
+offset_bottom = 89.0
 texture = ExtResource("2_th4p3")
 expand_mode = 2
 
-[node name="player_choice" type="CanvasGroup" parent="CanvasLayer/Panel" unique_id=1223565285]
+[node name="player_choice" type="CanvasGroup" parent="Panel" unique_id=1223565285]
 visible = false
 position = Vector2(-55.666668, -214.66667)
 
-[node name="option1" type="Button" parent="CanvasLayer/Panel/player_choice" unique_id=593569167]
+[node name="option1" type="Button" parent="Panel/player_choice" unique_id=593569167]
 offset_left = 285.66666
 offset_top = 314.66666
 offset_right = 368.66666
@@ -94,7 +92,7 @@ theme_override_fonts/font = ExtResource("5_m2key")
 theme_override_font_sizes/font_size = 8
 text = "Yes I will help!"
 
-[node name="option2" type="Button" parent="CanvasLayer/Panel/player_choice" unique_id=807889344]
+[node name="option2" type="Button" parent="Panel/player_choice" unique_id=807889344]
 offset_left = 436.66666
 offset_top = 315.66666
 offset_right = 461.66666
@@ -103,10 +101,10 @@ theme_override_fonts/font = ExtResource("5_m2key")
 theme_override_font_sizes/font_size = 8
 text = "Nah"
 
-[node name="OptionTimer" type="Timer" parent="CanvasLayer/Panel/player_choice" unique_id=1706569055]
+[node name="OptionTimer" type="Timer" parent="Panel/player_choice" unique_id=1706569055]
 unique_name_in_owner = true
 
-[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer/Panel/player_choice" unique_id=799686836]
+[node name="ProgressBar" type="ProgressBar" parent="Panel/player_choice" unique_id=799686836]
 unique_name_in_owner = true
 offset_left = 150.66667
 offset_top = 318.66666
@@ -118,6 +116,6 @@ theme_override_styles/fill = SubResource("StyleBoxFlat_78wru")
 value = 100.0
 show_percentage = false
 
-[connection signal="button_down" from="CanvasLayer/Panel/player_choice/option1" to="." method="_on_option_1_button_down"]
-[connection signal="button_down" from="CanvasLayer/Panel/player_choice/option2" to="." method="_on_option_2_button_down"]
-[connection signal="timeout" from="CanvasLayer/Panel/player_choice/OptionTimer" to="." method="_on_option_timer_timeout"]
+[connection signal="button_down" from="Panel/player_choice/option1" to="." method="_on_option_1_button_down"]
+[connection signal="button_down" from="Panel/player_choice/option2" to="." method="_on_option_2_button_down"]
+[connection signal="timeout" from="Panel/player_choice/OptionTimer" to="." method="_on_option_timer_timeout"]
