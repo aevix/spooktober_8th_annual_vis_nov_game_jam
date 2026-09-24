@@ -1,0 +1,225 @@
+{
+	"Char": "Narrator",
+	"Text": "Sophia dressed herself; and in the mean time they sent to her sisters, who hasted thither with their husbands. They were both of them very unhappy.",
+	"Next_Scene": "title_card",
+	"Options": false,
+	"Next": [
+		"cont_1"
+	],
+	"cont_1": {
+		"Char": "Narrator",
+		"Text": "The second had married a man of wit, but he only made use of it to plague and torment every body, and his wife most of all. Sophia's sisters sickened with envy, when they saw her dressed like a Princess, and more beautiful than ever.",
+		"Options": false,
+		"Next": ["cont_2"]
+	},
+	"cont_2": {
+		"Char": "Narrator",
+		"Text": "Nor could all her obliging affectionate behaviour stifle their jealousy, which was ready to burst when she told them how happy she was.",
+		"Options": false,
+		"Next": ["cont_3"]
+	},
+	"cont_3": {
+		"Char": "Violet",
+		"Text": "In what is this little creature better than us, that she should be so much happier?",
+		"Options": false,
+		"Next": ["cont_4"]
+	},
+	"cont_4": {
+		"Char": "Eleanor",
+		"Text": "Sister, a thought just strikes my mind; let us endeavour to detain her above a week, and perhaps the silly monster will be so enraged at her for breaking her word, that he will devour her.",
+		"Options": false,
+		"Next": ["cont_5"]
+	},
+	"cont_5": {
+		"Char": "Violet",
+		"Text": "Right, sister, therefore we must shew her as much kindness as possible.",
+		"Options": false,
+		"Next": ["cont_6"]
+	},
+	"cont_6": {
+		"Char": "Narrator",
+		"Text": "After they had taken this resolution, they went up, and behaved so affectionately to their sister, that poor Sophia wept for joy. When the week was expired, they cried and tore their hair, and seemed so sorry to part with her, that she promised to stay a week longer.",
+		"Options": false,
+		"Next": ["cont_7"]
+	},
+	"cont_7": {
+		"Char": "Narrator",
+		"Text": "In the mean time, Sophia could not help reflecting on herself for the uneasiness she was likely to cause poor Beast, whom she sincerely loved, and really longed to see again.",
+		"Options": false,
+		"Next": ["cont_8"]
+	},
+	"cont_8": {
+		"Char": "Narrator",
+		"Text": "The tenth night she spent at her father's, she dreamed she was in the palace garden, and that she saw Beast extended on the grass-plot, who seemed just expiring, and, in a dying voice, reproached her with her ingratitude. Sophia started out of her sleep and bursting into tears",
+		"Options": false,
+		"Next": ["cont_9"]
+	},
+	"cont_9": {
+		"Char": "Sophia",
+		"Text": "Am not I very wicked, to act so unkindly to Beast, that has studied so much to please me in every thing?",
+		"Options": false,
+		"Next": ["cont_10"]
+	},
+	"cont_10": {
+		"Char": "Sophia",
+		"Text": "Is it his fault that he is so ugly, and has so little sense? He is kind and good, and that is sufficient. Why did I refuse to marry him?",
+		"Options": false,
+		"Next": ["cont_11"]
+	},
+	"cont_11": {
+		"Char": "Sophia",
+		"Text": "I should be happier with the monster than my sisters are with their husbands.",
+		"Options": false,
+		"Next": ["cont_12"]
+	},
+	"cont_12": {
+		"Char": "Sophia",
+		"Text": "It is neither wit nor a fine person in a husband, that makes a woman happy; but virtue, sweetness of temper, and complaisance: and Beast has all these valuable qualifications.",
+		"Options": false,
+		"Next": ["cont_13"]
+	},
+	"cont_13": {
+		"Char": "Sophia",
+		"Text": "It is true, I do not feel the tenderness of affection for him, but I find I have the highest gratitude, esteem, and friendship; and I will not make him miserable; were I to be so ungrateful, I should never forgive myself.",
+		"Options": false,
+		"Next": ["cont_14"]
+	},
+	"cont_14": {
+		"Char": "Narrator",
+		"Text": "Sophia having said this, rose, put her ring on the table, and then laid down again; scarce was she in bed before she fell asleep.",
+		"Options": false,
+		"Next": ["cont_15"]
+	},
+	"cont_15": {
+		"Char": "Narrator",
+		"Text": "When she waked the next morning, she was overjoyed to find herself in the Beast's palace.",
+		"Options": false,
+		"Next": ["cont_16"]
+	},
+	"cont_16": {
+		"Char": "Narrator",
+		"Text": "She put on one of her richest suits to please him, and waited for evening with the utmost impatience; at last the wished-for hour came, the clock struck nine, yet no Beast appeared.",
+		"Options": false,
+		"Next": ["cont_17"]
+	},
+	"cont_17": {
+		"Char": "Narrator",
+		"Text": "Sophia then feared she had been the cause of his death; she ran crying and wringing her hands all about the palace, like one in despair; after having sought for him every where, she recollected her dream, and flew to the canal in the garden, where she dreamed she saw him.",
+		"Options": false,
+		"Next": ["cont_18"]
+	},
+	"cont_18": {
+		"Char": "Narrator",
+		"Text": "There she found poor Beast stretched out, quite senseless, and, as she imagined, dead.",
+		"Options": false,
+		"Next": ["cont_19"]
+	},
+	"cont_19": {
+		"Char": "Narrator",
+		"Text": "She threw herself upon him without any dread, and finding his heart beat still, she fetched some water from the canal, and poured it on his head. Beast opened his eyes.",
+		"Options": false,
+		"Next": ["cont_20"]
+	},
+	"cont_20": {
+		"Char": "Beast",
+		"Text": "You forgot your promise, and I was so afflicted for having lost you, that I resolved to starve myself; but since I have the happiness of seeing you once more, I die satisfied.",
+		"Options": false,
+		"Next": ["cont_21"]
+	},
+	"cont_21": {
+		"Char": "Sophia",
+		"Text": "No, dear Beast, you must not die; live to be my husband; from this moment I give you my hand, and swear to be none but yours.",
+		"Options": false,
+		"Next": ["cont_22"]
+	},
+	"cont_22": {
+		"Char": "Sophia",
+		"Text": "Alas! I thought I had only a friendship for you, but, the grief I now feel convinces me, that I cannot live without you.",
+		"Options": false,
+		"Next": ["cont_23"]
+	},
+	"cont_23": {
+		"Char": "Narrator",
+		"Text": "Sophia scarcely had pronounced these words, when she saw the palace sparkle with light; and fireworks, instruments of music, every thing, seemed to give notice of some great event",
+		"Options": false,
+		"Next": ["cont_24"]
+	},
+	"cont_24": {
+		"Char": "Narrator",
+		"Text": "But nothing could fix her attention; she turned to her dear Beast, for whom she trembled with fear.",
+		"Options": false,
+		"Next": ["cont_25"]
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "But how great was her surprise! Beast had disappeared, and she saw, at her feet, one of the loveliest Princes that eye ever beheld",
+		"Options": false,
+		"Next": ["cont_26"]
+	},
+	"cont_26": {
+		"Char": "Prince",
+		"Text": "Thank you, Sophia, for having saved me from the most cruel curse that was cast upon me.",
+		"Options": false,
+		"Next": ["cont_27"]
+	},
+	"cont_27": {
+		"Char": "Sophia",
+		"Text": "But what has become of the monster, who was so good to me?",
+		"Options": false,
+		"Next": ["cont_28"]
+	},
+	"cont_28": {
+		"Char": "Prince",
+		"Text": "You see him at your feet, a wicked fairy had condemned me to remain under that shape till a beautiful virgin should consent to marry me.",
+		"Options": false,
+		"Next": ["cont_29"]
+	},
+	"cont_29": {
+		"Char": "Prince",
+		"Text": "The fairy likewise enjoined me to conceal my understanding; there was only you in the world generous enough to be won by the goodness of my temper; and in offering you my crown, I can't discharge the obligations I have to you.",
+		"Options": false,
+		"Next": ["cont_30"]
+	},
+	"cont_30": {
+		"Char": "Fairy",
+		"Text": "Sophia, come and receive the reward of your judicious choice; you have preferred virtue before either wit or beauty, and deserve to find a person in whom all these qualifications are united.",
+		"Options": false,
+		"Next": ["cont_31"]
+	},
+	"cont_31": {
+		"Char": "Fairy",
+		"Text": "You are going to be a great Queen; I hope the throne will not lessen your virtue, or make you forget yourself.",
+		"Options": false,
+		"Next": ["cont_32"]
+	},
+	"cont_32": {
+		"Char": "Fairy",
+		"Text": "As to you, ladies, (said the Fairy to Sophia's two sisters,) I know your hearts, and all the malice they contain: become two statues; but, under this transformation, still retain your reason.",
+		"Options": false,
+		"Next": ["cont_33"]
+	},
+	"cont_33": {
+		"Char": "Fairy",
+		"Text": "You shall stand before your sister's palace gate, and be it your punishment to behold her happiness; and it will not be in your power to return to your former state till you own your faults; but I am very much afraid that you will always remain statues.",
+		"Options": false,
+		"Next": ["cont_34"]
+	},
+	"cont_34": {
+		"Char": "Fairy",
+		"Text": "Pride, anger, gluttony, and idleness, are sometimes conquered, but the conversion of a malicious and envious mind is a kind of miracle.",
+		"Options": false,
+		"Next": ["cont_35"]
+	},
+	"cont_35": {
+		"Char": "Fairy",
+		"Text": "Immediately I gave a stroke with my wand, and in a moment all that were in the hall were transported into the Prince's palace.",
+		"Options": false,
+		"Next": ["cont_36"]
+	},
+	"cont_36": {
+		"Char": "Fairy",
+		"Text": "His subjects received him with joy; he married Sophia, and lived with her many years; and their happiness, as it was founded on virtue, was complete.",
+		"Options": false,
+		"Next": []
+	}
+}
