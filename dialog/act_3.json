@@ -120,5 +120,88 @@
 		"Options": false,
 		"Next": ["cont_20"]
 	},
-	
+	"cont_20": {
+		"Char": "Beast",
+		"Text": "Sophia spent three months very contentedly in the palace: every evening Beast paid her a visit, and talked to her during supper, very rationally, with plain good common sense, but never with what the world calls wit.",
+		"Options": false,
+		"Next": ["cont_21"]
+	},
+	"cont_21": {
+		"Char": "Narrator",
+		"Text": "She daily discovered some valuable qualifications in the monster; and seeing him often, had so accustomed her to his deformity, that, far from dreading the time of his visit, she would often look on her watch to see when it would be nine; for the Beast never missed coming at that hour.",
+		"Options": false,
+		"Next": ["cont_22"]
+	},
+	"cont_22": {
+		"Char": "Narrator",
+		"Text": "There was but one thing that gave Sophia any concern, which was, that every night, before she went to bed, the monster always asked her, if she would be his wife.",
+		"Options": false,
+		"Next": ["cont_23"]
+	},
+	"cont_23": {
+		"Char": "Sophia",
+		"Text": "Beast, you make me very uneasy, I wish I could consent to marry you, but I am too sincere to make you believe that will ever happen: I shall always esteem you as a friend; endeavour to be satisfied with this.",
+		"Options": false,
+		"Next": ["cont_24"]
+	},
+	"cont_24": {
+		"Char": "Beast",
+		"Text": "I must for, alas! I know too well my own misfortune; but then I love you with the tenderest affection: however, I ought to think myself happy that you will stay here; promise me never to leave me.",
+		"Options": false,
+		"Next": ["cont_25"]
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "Sophia blushed at these words; she had seen in her glass, that her father had pined himself sick for the loss of her, and she longed to see him again.",
+		"Options": false,
+		"Next": ["cont_26"]
+	},
+	"cont_26": {
+		"Char": "Sophia",
+		"Text": "I could, indeed promise never to leave you entirely, but I have so great a desire to see my father, that I shall fret to death, if you refuse me that satisfaction.",
+		"Options": false,
+		"Next": ["cont_27"]
+	},
+	"cont_27": {
+		"Char": "Beast",
+		"Text": "I had rather die myself, than give you the least uneasiness: I will send you to your father, you shall remain with him, and poor Beast will die with grief.",
+		"Options": false,
+		"Next": ["cont_28"]
+	},
+	"cont_28": {
+		"Char": "Sophia",
+		"Text": "No, I love you too well to be the cause of your death: I give you my promise to return in a week: you have shewn me that my sisters are married, and my brothers gone to the army; only let me stay a week with my father, as he is alone.",
+		"Options": false,
+		"Next": ["cont_29"]
+	},
+	"cont_29": {
+		"Char": "Beast",
+		"Text": "You shall be there tomorrow morning, but remember your promise: you need only lay your ring on the table before you go to bed, when you have a mind to come back: farewell, Sophia.",
+		"Options": false,
+		"Next": ["cont_30"]
+	},
+	"cont_30": {
+		"Char": "Narrator",
+		"Text": "Beast sighed as usual, bidding her good night; and Sophia went to bed very sad at seeing him so afflicted.",
+		"Options": false,
+		"Next": ["cont_31"]
+	},
+	"cont_31": {
+		"Char": "Narrator",
+		"Text": "When she waked the next morning, she found herself at her father's, and having rang a little bell, that was by her bed-side, she saw the maid come; who, the moment she saw her, gave a loud shriek; at which the good man ran up stairs, and thought he should have died with joy to see his dear daughter again.",
+		"Options": false,
+		"Next": ["cont_32"]
+	},
+	"cont_32": {
+		"Char": "Narrator",
+		"Text": "He held her fast locked in his arms above a quarter of an hour. As soon as the first transports were over, Sophia began to think of rising, and was afraid she had no clothes to put on; but the maid told her, that she had just found, in the next room, a large trunk full of gowns, covered with gold and diamonds.",
+		"Options": false,
+		"Next": ["cont_33"]
+	},
+	"cont_33": {
+		"Char": "Narrator",
+		"Text": "Sophia thanked good Beast for his kind care, and taking one of the plainest of them, she intended to make a present of the others to her sisters. She scarce had said so, when the trunk disappeared. Her father told her, that Beast insisted on her keeping them herself; and immediately both gowns and trunk came back again.",
+		"Options": false,
+		"Next": []
+	}
 }
