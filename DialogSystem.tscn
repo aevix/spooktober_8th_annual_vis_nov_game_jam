@@ -84,22 +84,24 @@ visible = false
 position = Vector2(-55.666668, -214.66667)
 
 [node name="option1" type="Button" parent="Panel/player_choice" unique_id=593569167]
-offset_left = 285.66666
-offset_top = 314.66666
-offset_right = 368.66666
-offset_bottom = 330.66666
+offset_left = 127.16666
+offset_top = 243.66667
+offset_right = 587.6666
+offset_bottom = 276.6667
 theme_override_fonts/font = ExtResource("5_m2key")
-theme_override_font_sizes/font_size = 8
-text = "Yes I will help!"
+theme_override_font_sizes/font_size = 15
+text = "fdasfffffffffffffffffffffffffdsafdsfsdafsafasdfdsfdsafdaafsdafsadfasdfsafasfsafasfasdfafasfsdfsdfafasdfdasfsadfasdfdsafasfsafdsafasfasfasdfsfdsafsafasfasjfklsjfksjdfl;kasjdlsa"
+autowrap_mode = 3
 
 [node name="option2" type="Button" parent="Panel/player_choice" unique_id=807889344]
-offset_left = 436.66666
-offset_top = 315.66666
-offset_right = 461.66666
-offset_bottom = 331.66666
+offset_left = 126.66667
+offset_top = 283.1667
+offset_right = 587.1667
+offset_bottom = 319.1667
 theme_override_fonts/font = ExtResource("5_m2key")
-theme_override_font_sizes/font_size = 8
+theme_override_font_sizes/font_size = 16
 text = "Nah"
+autowrap_mode = 3
 
 [node name="OptionTimer" type="Timer" parent="Panel/player_choice" unique_id=1706569055]
 unique_name_in_owner = true

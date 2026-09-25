@@ -67,8 +67,8 @@
 	"cont_11": {
 		"Char": "Samuel",
 		"Text": "There is no money to fund another voyage. I was able to scrape a little bit of money and purchase a small cottage out side of town. We will have to start over...",
-		"Options": false,
-		"Next": ["cont_12"]
+		"Options": true,
+		"Next": ["cont_12", "cont_12a"]
 	},
 	"cont_12": {
 		"Char": "Sophia",
@@ -76,11 +76,23 @@
 		"Options": false,
 		"Next": ["cont_13"]
 	},
+	"cont_12a": {
+		"Char": "Sophia",
+		"Text": "How would we survive in the country? I don't know how to do anything! I can't even milk a cow!",
+		"Options": false,
+		"Next": ["cont_13a"]
+	},
 	"cont_13": {
 		"Char": "Violet",
 		"Text": "Survivors!? Who cares about survivors! What do you mean we have to start over? I was just about to go on a date with Joseph and now what will he think of me now that I am poor!",
 		"Options": false,
 		"Next": ["cont_14"]
+	},
+	"cont_13a": {
+		"Char": "Violet",
+		"Text": "Milk a cow?! We are all going to starve to death!",
+		"Options": false,
+		"Next": ["cont_14a"]
 	},
 	"cont_14": {
 		"Char": "Narrator",
@@ -88,17 +100,35 @@
 		"Options": false,
 		"Next": ["cont_15"]
 	},
+	"cont_14a": {
+		"Char": "Narrator",
+		"Text": "The two eldest protested that they would not leave the town, for they had several lovers, who they were sure would be glad to have them, though they had no fortune; but in this they were mistaken, for their lovers slighted and forsook them in their poverty.",
+		"Options": false,
+		"Next": ["cont_15a"]
+	},
 	"cont_15": {
 		"Char": "Cobbler",
 		"Text": "They do not deserve to be pitied, we are glad to see their pride humbled, let them go and give themselves quality airs in milking the cows and minding their dairy",
 		"Options": false,
 		"Next": ["cont_16"]
 	},
+	"cont_15a": {
+		"Char": "Cobbler",
+		"Text": "They do not deserve to be pitied, we are glad to see their pride humbled, let them go and give themselves quality airs in milking the cows and minding their dairy",
+		"Options": false,
+		"Next": ["cont_16a"]
+	},
 	"cont_16": {
 		"Char": "Tailor",
 		"Text": "But I feel for Sophia, she was such a charming, sweet-tempered girl, spoke so friendly to everyone, and has such a kindred heart.",
 		"Options": false,
 		"Next": ["cont_17"]
+	},
+	"cont_16a": {
+		"Char": "Tailor",
+		"Text": "aye... but I feel for the father, he was such a charming, sweet-tempered man, spoke so friendly to everyone, and has such a kindred heart.",
+		"Options": false,
+		"Next": []
 	},
 	"cont_17": {
 		"Char": "Cobbler",

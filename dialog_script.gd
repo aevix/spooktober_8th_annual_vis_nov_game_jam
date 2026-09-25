@@ -3,9 +3,12 @@ var dialog_json
 var next
 var options
 var choice
+var script_path
+var option_1
+var option_2
 const option_timer = 10.0
 var timer_started = false
-
+var test = 0
 @onready var dialogue_label: RichTextLabel = $Panel/RichTextLabel
 var text_animating = true
 var text_speed = 0.01
@@ -48,58 +51,71 @@ func process_dialog():
 			$Panel/RichTextLabel.text = dialog_json["Text"]
 		next = dialog_json["Next"]
 		options = dialog_json["Options"]
+		
 	elif options == false and next:
 		#This is for dialog options that doesn't have a choice
-		var script_path = dialog_json[next[0]]
+		script_path = dialog_json[next[0]]
 		$Panel/Label.text = script_path["Char"] + ":"
 		$Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": script_path["Char"]}))
 		text_animating = await dialogue_label.show_dialogue(script_path["Text"], text_speed)
-
+		options = script_path["Options"]
 		next = script_path["Next"]
-		#if next:
-			#script_path = dialog_json[next[0]]
+		if next:
+			script_path = dialog_json[next[0]]
 	elif next:
-		var script_path = dialog_json[next[choice]]
+		option_1 = dialog_json[next[0]]
+		option_2 = dialog_json[next[1]]
+		$Panel/player_choice.visible = true
+		$Panel/player_choice/option1.text = option_1["Text"]
+		$Panel/player_choice/option2.text = option_2["Text"]
+		#if script_path["Options"]:
+			#$Panel/player_choice.visible = true
+		#else:
+			#$Panel/player_choice.visible = false
+		if $Panel/player_choice.visible:
+			%ProgressBar.max_value = option_timer * 10
+			%OptionTimer.wait_time = option_timer
+			%OptionTimer.start()
+			timer_started = true
+		#script_path = dialog_json[next[0]]
 		$Panel/Label.text = script_path["Char"] + ":"
 		$Panel/TextureRect.texture = load("res://asset/characters/{char}.png".format({"char": script_path["Char"]}))
-		text_animating = await dialogue_label.show_dialogue(script_path["Text"], text_speed)
-
-		next = dialog_json["Next"]
-		if next:
-		# depending on player selection it can go to next 0 or 1 for now it is set to just 1 I will have to modify this later
-			dialog_json = dialog_json[next[choice]]
+		$Panel/RichTextLabel.text = ""
+		#if next:
+		## depending on player selection it can go to next 0 or 1 for now it is set to just 1 I will have to modify this later
+			#dialog_json = dialog_json[next[choice]]
 	else:
 		Global.current_scene = dialog_json["Next_Scene"]
 		self.queue_free()
 		SceneTransition.change_scene("res://{scene}.tscn".format({"scene": dialog_json["Next_Scene"]}))
 
-	if dialog_json["Options"]:
-		$Panel/player_choice.visible = true
-	else:
-		$Panel/player_choice.visible = false
-	if $Panel/player_choice.visible:
-		%ProgressBar.max_value = option_timer * 10
-		%OptionTimer.wait_time = option_timer
-		%OptionTimer.start()
-		timer_started = true
 
 
 
 func _on_option_1_button_down() -> void:
 	choice = 0
 	$Panel/player_choice.visible = false
+	script_path = dialog_json[option_1["Next"][0]]
+	options = option_1["Options"]
+	next = option_1["Next"]
 	process_dialog()
 
 
 func _on_option_2_button_down() -> void:
 	choice = 1
 	$Panel/player_choice.visible = false
+	script_path = dialog_json[option_2["Next"][0]]
+	options = option_2["Options"]
+	next = option_2["Next"]
 	process_dialog()
 
 
 func _on_option_timer_timeout() -> void:
 	%OptionTimer.stop()
-	choice = 1
+	choice = 0
 	$Panel/player_choice.visible = false
 	timer_started = false
+	script_path = dialog_json[option_1["Next"][0]]
+	options = option_1["Options"]
+	next = option_1["Next"]
 	process_dialog()
