@@ -6,7 +6,7 @@
 	"Next": ["cont_1"],
 	"cont_1": {
 		"Char": "Narrator",
-		"Text": "Being a man of sense, he spared no cost for their education, but gave them all kinds of masters. His daughters were extremely handsome, especially the youngest.",
+		"Text": "Being a man of sense, he spared no cost for their education, but gave them all kinds of masters to apprentice under. His daughters were extremely handsome, especially the youngest.",
 		"Options": false,
 		"Next": ["cont_2"]
 	},
@@ -36,7 +36,7 @@
 	},
 	"cont_6": {
 		"Char": "Violet",
-		"Text": "Leave her be, its not like anyone would want to marry her even if she wanted to, ha ha.",
+		"Text": "Leave her be, books will be her only companion, ha ha.",
 		"Options": false,
 		"Next": ["cont_7"]
 	},
@@ -48,25 +48,31 @@
 	},
 	"cont_8": {
 		"Char": "Narrator",
-		"Text": "Days and months continued as it always had for Sophia burried in books and her sisters going on endless outings. But all that would change when all at once the merchant lost his whole fortune, excepting a small country-house at a great distance from town, and told his children, with tears in his eyes, they most go there and work for their living.",
+		"Text": "Days and months continued. Sophia read and read, burried in books, while her sisters went on endless outings.",
+		"Options": false,
+		"Next": ["cont_8a"]
+	},
+	"cont_8a": {
+		"Char": "Narrator",
+		"Text": "But that would soon change. All at once, the merchant lost his whole fortune, excepting a small country-house at a great distance from town. He told his children, with tears in his eyes, they most go there and work for their living.",
 		"Options": false,
 		"Next": ["cont_9"]
 	},
 	"cont_9": {
 		"Char": "Samuel",
-		"Text": "Girls, gather around, I have something to tell you... The vessel that I had purchased has sunk during the voyage... we lost everything...",
+		"Text": "Please gather, my sweet children, I have something I must tell you... The vessel that I had purchased has sunk during the voyage... we lost everything...",
 		"Options": false,
 		"Next": ["cont_10"]
 	},
 	"cont_10": {
 		"Char": "Eleanor",
-		"Text": "So? Just go buy another boat. I don't know why you are being so dramatic about it.",
+		"Text": "So? Just go buy another boat, father.",
 		"Options": false,
 		"Next": ["cont_11"]
 	},
 	"cont_11": {
 		"Char": "Samuel",
-		"Text": "There is no money to fund another voyage. I was able to scrape a little bit of money and purchase a small cottage out side of town. We will have to start over...",
+		"Text": "There is no money to fund another voyage. I was able to scrape a little bit to purchase a small cottage outside of town. We will have to start over, all anew...",
 		"Options": true,
 		"Next": ["cont_12", "cont_12a"]
 	},
@@ -84,7 +90,7 @@
 	},
 	"cont_13": {
 		"Char": "Violet",
-		"Text": "Survivors!? Who cares about survivors! What do you mean we have to start over? I was just about to go on a date with Joseph and now what will he think of me now that I am poor!",
+		"Text": "Survivors!? Who cares about survivors! What do you mean we have to start over? I was just about to procure Joseph. What will he think of me now that I am destitute?",
 		"Options": false,
 		"Next": ["cont_14"]
 	},
@@ -126,13 +132,13 @@
 	},
 	"cont_16a": {
 		"Char": "Tailor",
-		"Text": "aye... but I feel for the father, he was such a charming, sweet-tempered man, spoke so friendly to everyone, and has such a kindred heart.",
+		"Text": "Aye... but I feel for the father, he was such a charming, sweet-tempered man, spoke so friendly to everyone, and has such a kindred heart.",
 		"Options": false,
 		"Next": []
 	},
 	"cont_17": {
 		"Char": "Cobbler",
-		"Text": "I heard several gentlemen would have married her, though they knew she had not a penny. She told them she could not think of leaving her poor father in his misfortunes, but was determined to go along with him into the country to comfort and attend him. It's a shame...",
+		"Text": "I heard several gentlemen would have married her, though they knew she had not a penny. She told them she could not think of leaving her poor father in his misfortunes, but was determined to go along with him into the country to comfort and attend him. Tis a shame...",
 		"Options": false,
 		"Next": []
 	}

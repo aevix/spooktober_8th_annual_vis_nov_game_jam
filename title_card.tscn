@@ -1,9 +1,52 @@
 [gd_scene format=3 uid="uid://bfq3cmxw38onx"]
 
-[ext_resource type="FontFile" uid="uid://e0504tpily5k" path="res://asset/font/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf" id="1_1svst"]
-[ext_resource type="Texture2D" uid="uid://cowylcehfdp7n" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/03.png" id="1_j6hyl"]
 [ext_resource type="FontFile" uid="uid://cn2u8bl5tj8vt" path="res://asset/font/League_Gothic/static/LeagueGothic-Regular.ttf" id="1_pe4mo"]
 [ext_resource type="Script" uid="uid://daa6pmtq1uxqf" path="res://title_card.gd" id="1_ucqqr"]
+[ext_resource type="Texture2D" uid="uid://c02h3abqrp68c" path="res://asset/background/title_card.png" id="2_jhg7a"]
+[ext_resource type="Script" uid="uid://c6qvsdu5sj1pv" path="res://door_unlock.gd" id="2_ucqqr"]
+[ext_resource type="FontFile" uid="uid://dc0pjb56r02km" path="res://asset/font/Jacquard_12/Jacquard12-Regular.ttf" id="3_jhg7a"]
+[ext_resource type="PackedScene" uid="uid://bg7k8hml7gc5q" path="res://sound_setting.tscn" id="4_2fj23"]
+[ext_resource type="AudioStream" uid="uid://dulf3bqsynfqu" path="res://asset/big_assets/audio/Great So Far/OGG/Great So Far - Full.ogg" id="5_urimg"]
+[ext_resource type="AudioStream" uid="uid://beymilbmf0w6k" path="res://asset/big_assets/audio/sound effect/door_open.wav" id="6_2fj23"]
+
+[sub_resource type="FontVariation" id="FontVariation_ucqqr"]
+base_font = ExtResource("3_jhg7a")
+spacing_space = -19
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jsvxx"]
+bg_color = Color(0.28627452, 0.20392157, 0.23921569, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_urimg"]
+bg_color = Color(0.48235294, 0.49411765, 0.3882353, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_33hao"]
+bg_color = Color(0.28627452, 0.20392157, 0.23921569, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jhg7a"]
+bg_color = Color(0.48235294, 0.49411765, 0.3882353, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i425g"]
+bg_color = Color(0.28627452, 0.20392157, 0.23921569, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
 
 [node name="title_card" type="Control" unique_id=763205993]
 layout_mode = 3
@@ -13,51 +56,56 @@ script = ExtResource("1_ucqqr")
 [node name="background" type="Sprite2D" parent="." unique_id=1004945553]
 position = Vector2(639, 347)
 scale = Vector2(0.7, 0.7)
-texture = ExtResource("1_j6hyl")
+texture = ExtResource("2_jhg7a")
 
 [node name="title" type="Label" parent="." unique_id=303539529]
 layout_mode = 0
-offset_left = 260.0
-offset_top = 239.0
-offset_right = 1034.0
-offset_bottom = 420.0
-theme_override_fonts/font = ExtResource("1_1svst")
+offset_left = 64.0
+offset_top = 242.0
+offset_right = 1221.0
+offset_bottom = 423.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.27450982)
+theme_override_constants/line_spacing = 3
+theme_override_constants/shadow_offset_x = 13
+theme_override_constants/shadow_offset_y = 0
+theme_override_fonts/font = SubResource("FontVariation_ucqqr")
 theme_override_font_sizes/font_size = 150
 text = "Beauty & The Beast"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="volume" type="Label" parent="." unique_id=313805888]
-layout_mode = 0
-offset_left = 81.0
-offset_top = 72.0
-offset_right = 121.0
-offset_bottom = 95.0
-text = "Sound"
-
 [node name="play" type="Button" parent="." unique_id=651586481]
 layout_mode = 0
-offset_left = 680.0
-offset_top = 544.0
-offset_right = 721.0
-offset_bottom = 575.0
+offset_left = 432.0
+offset_top = 440.0
+offset_right = 832.0
+offset_bottom = 515.0
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_jsvxx")
+theme_override_styles/hover = SubResource("StyleBoxFlat_urimg")
 text = "Play"
 
 [node name="exit" type="Button" parent="." unique_id=452287180]
 layout_mode = 0
-offset_left = 512.0
-offset_top = 544.0
-offset_right = 594.0
-offset_bottom = 575.0
+offset_left = 432.0
+offset_top = 600.0
+offset_right = 832.0
+offset_bottom = 675.0
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_33hao")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jhg7a")
 text = "Exit Story"
 
 [node name="score" type="Label" parent="." unique_id=1539420261]
+visible = false
 layout_mode = 0
-offset_left = 1096.0
-offset_top = 50.0
-offset_right = 1264.0
-offset_bottom = 73.0
+offset_left = 732.0
+offset_top = 207.0
+offset_right = 1119.1304
+offset_bottom = 260.0
 theme_override_fonts/font = ExtResource("1_pe4mo")
+theme_override_font_sizes/font_size = 38
 text = "0/13 Scenes Unlocked"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -65,5 +113,37 @@ vertical_alignment = 1
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2140633100]
 position = Vector2(644, 361)
 
+[node name="intro_music" type="AudioStreamPlayer2D" parent="." unique_id=1078544665]
+stream = ExtResource("5_urimg")
+volume_db = 1.814
+autoplay = true
+parameters/looping = true
+
+[node name="door_unlock" type="AudioStreamPlayer2D" parent="." unique_id=147460131]
+stream = ExtResource("6_2fj23")
+script = ExtResource("2_ucqqr")
+
+[node name="sound_setting" type="Panel" parent="." unique_id=736654515]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 520.0
+offset_right = 832.0
+offset_bottom = 595.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_i425g")
+
+[node name="volume" type="Label" parent="sound_setting" unique_id=313805888]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 9.0
+offset_right = 237.0
+offset_bottom = 39.0
+theme_override_font_sizes/font_size = 24
+text = "Sound"
+
+[node name="sound_setting" parent="sound_setting" unique_id=51623868 instance=ExtResource("4_2fj23")]
+top_level = true
+position = Vector2(544, 565)
+
 [connection signal="pressed" from="play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]
+[connection signal="finished" from="door_unlock" to="." method="_on_door_unlock_finished"]

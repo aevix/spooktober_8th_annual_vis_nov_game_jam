@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dwutrqlrlwrm2"]
+
+[ext_resource type="AudioStream" uid="uid://dkoywdj5qc6iw" path="res://asset/big_assets/audio/Fin/OGG/Fin.ogg" id="1_4m5bw"]
+[ext_resource type="Script" uid="uid://cxnprji4sv04r" path="res://background_music.gd" id="1_l3d1b"]
+
+[node name="Background_music" type="Node2D" unique_id=228331975]
+script = ExtResource("1_l3d1b")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=479339134]
+stream = ExtResource("1_4m5bw")
+parameters/looping = true

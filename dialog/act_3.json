@@ -1,6 +1,6 @@
 {
 	"Char": "Narrator",
-	"Text": "At noon she found dinner ready, and while at table, was entertained with an excellent concert of music, though without seeing any body",
+	"Text": "At noon she found dinner ready, and while at table, was entertained with an excellent concert of music, though without seeing any body.",
 	"Next_Scene": "act_4",
 	"Options": false,
 	"Next": [
@@ -8,7 +8,7 @@
 	],
 	"cont_1": {
 		"Char": "Narrator",
-		"Text": "but at night, as she was going to sit down to supper, she heard the noise Beast made; and could not help being sadly terrified.",
+		"Text": "But at night, as she was going to sit down to supper, she heard the noise Beast made; and could not help being sadly terrified.",
 		"Options": false,
 		"Next": ["cont_2"]
 	},
@@ -27,12 +27,18 @@
 	"cont_4": {
 		"Char": "Beast",
 		"Text": "No, you alone are mistress here; you need only bid me be gone, if my presence is troublesome, and I will immediately withdraw: but tell me, do not you think me very ugly?",
-		"Options": false,
-		"Next": ["cont_5"]
+		"Options": true,
+		"Next": ["cont_5", "cont_5a"]
 	},
 	"cont_5": {
 		"Char": "Sophia",
 		"Text": "That is true, for I cannot tell a lie; but I believe you are very good-natured.",
+		"Options": false,
+		"Next": ["cont_6"]
+	},
+	"cont_5a": {
+		"Char": "Sophia",
+		"Text": "That is true, for I cannot tell a lie...",
 		"Options": false,
 		"Next": ["cont_6"]
 	},
@@ -51,12 +57,18 @@
 	"cont_8": {
 		"Char": "Beast",
 		"Text": "Eat then, Sophia, and endeavour to amuse yourself in your palace; for every thing here is yours, and I should be very uneasy if you were not happy.",
-		"Options": false,
-		"Next": ["cont_9"]
+		"Options": true,
+		"Next": ["cont_9", "cont_9a"]
 	},
 	"cont_9": {
 		"Char": "Sophia",
 		"Text": "You are very obliging, I own I am pleased with your kindness, and when I consider that, your deformity scarce appears.",
+		"Options": false,
+		"Next": ["cont_10"]
+	},
+	"cont_9a": {
+		"Char": "Sophia",
+		"Text": "You are very obliging, even with your kindness, and when I consider that, your deformity still appears.",
 		"Options": false,
 		"Next": ["cont_10"]
 	},
@@ -121,7 +133,7 @@
 		"Next": ["cont_20"]
 	},
 	"cont_20": {
-		"Char": "Beast",
+		"Char": "Narrator",
 		"Text": "Sophia spent three months very contentedly in the palace: every evening Beast paid her a visit, and talked to her during supper, very rationally, with plain good common sense, but never with what the world calls wit.",
 		"Options": false,
 		"Next": ["cont_21"]
@@ -165,12 +177,18 @@
 	"cont_27": {
 		"Char": "Beast",
 		"Text": "I had rather die myself, than give you the least uneasiness: I will send you to your father, you shall remain with him, and poor Beast will die with grief.",
-		"Options": false,
-		"Next": ["cont_28"]
+		"Options": true,
+		"Next": ["cont_28", "cont_28a"]
 	},
 	"cont_28": {
 		"Char": "Sophia",
-		"Text": "No, I love you too well to be the cause of your death: I give you my promise to return in a week: you have shewn me that my sisters are married, and my brothers gone to the army; only let me stay a week with my father, as he is alone.",
+		"Text": "No, I love you too well to be the cause of your death: I give you my promise to return in a week: you have shewn me that my sisters are married. Only let me stay a week with my father, as he is alone.",
+		"Options": false,
+		"Next": ["cont_29"]
+	},
+	"cont_28a": {
+		"Char": "Sophia",
+		"Text": "Bit of a drama queen, I am the queen of this castle, and I can do whatever I want! I will stay with my father for a week, and you will not die.",
 		"Options": false,
 		"Next": ["cont_29"]
 	},
@@ -200,7 +218,13 @@
 	},
 	"cont_33": {
 		"Char": "Narrator",
-		"Text": "Sophia thanked good Beast for his kind care, and taking one of the plainest of them, she intended to make a present of the others to her sisters. She scarce had said so, when the trunk disappeared. Her father told her, that Beast insisted on her keeping them herself; and immediately both gowns and trunk came back again.",
+		"Text": "Sophia thanked good Beast for his kind care, and taking one of the plainest of them, she intended to make a present of the others to her sisters. ",
+		"Options": false,
+		"Next": ["cont_34"]
+	},
+	"cont_34": {
+		"Char": "Narrator",
+		"Text": "She scarce had said so, when the trunk disappeared. Her father told her, that Beast insisted on her keeping them herself; and immediately both gowns and trunk came back again.",
 		"Options": false,
 		"Next": []
 	}

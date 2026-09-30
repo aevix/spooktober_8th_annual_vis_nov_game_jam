@@ -8,25 +8,43 @@
 	],
 	"cont_1": {
 		"Char": "Narrator",
-		"Text": "This news had liked to have turned the heads of the two eldest daughters, who immediately flattered themselves with the hopes of returning to town; for they were quite weary of a country life; and when they saw their father ready to set out, they begged of him to buy them new gowns, caps, rings, and all manner of trifles; but Sophia asked for nothing, for she thought to herself, that all the money her father was going to receive would scarce be sufficient to purchase every thing her sisters wanted.",
+		"Text": "This news had liked to have turned the heads of the two eldest daughters, who immediately flattered themselves with the hopes of returning to town; for they were quite weary of a country life.",
+		"Options": false,
+		"Next": ["cont_1a"]
+	},
+	"cont_1a": {
+		"Char": "Narrator",
+		"Text": "When they saw their father ready to set out, they begged of him to buy them new gowns, caps, rings, and all manner of trifles; but Sophia asked for nothing, for she thought to herself, that all the money her father was going to receive would scarce be sufficient to purchase every thing her sisters wanted.",
 		"Options": false,
 		"Next": ["cont_2"]
 	},
 	"cont_2": {
 		"Char": "Samuel",
 		"Text": "What will you have, Sophia?",
-		"Options": false,
-		"Next": ["cont_3"]
+		"Options": true,
+		"Next": ["cont_3", "cont_3a"]
 	},
 	"cont_3": {
 		"Char": "Sophia",
-		"Text": "Since you are so kind as to think of me, could you be so kind as to bring me a rose, for as none grow hereabouts, they are a kind of rarity",
+		"Text": "Since you are so kind as to think of me, could you be so kind as to bring me a rose, for as none grow hereabouts, they are a kind of rarity.",
 		"Options": false,
 		"Next": ["cont_4"]
 	},
+	"cont_3a": {
+		"Char": "Sophia",
+		"Text": "I would be grateful if you could bring me a new dress, father.",
+		"Options": false,
+		"Next": ["cont_4a"]
+	},
 	"cont_4": {
 		"Char": "Violet",
-		"Text": "Ha! A rose? Always trying to seem sophisticated and different! I am sick of this, lets go Eleanor.",
+		"Text": "Ha! A rose? Always trying to seem sophisticated and different! I am sick of this, let us go Eleanor.",
+		"Options": false,
+		"Next": ["cont_5"]
+	},
+	"cont_4a": {
+		"Char": "Eleanor",
+		"Text": "Ha! A dress? Always trying to seem sophisticated, but you are no different from us after all!",
 		"Options": false,
 		"Next": ["cont_5"]
 	},
@@ -38,7 +56,13 @@
 	},
 	"cont_6": {
 		"Char": "Narrator",
-		"Text": "It rained and snowed terribly, besides, the wind was so high, that it threw him twice off his horse; and night coming on, he began to apprehend being either starved to death with cold and hunger, or else devoured by the wolves, whom he heard howling all around him, when, on a sudden, looking through a long walk of trees, he saw a light at some distance, and going on a little farther, perceived it came from a palace illuminated from top to bottom.",
+		"Text": "It rained and snowed terribly, besides, the wind was so high, that it threw him twice off his horse; and night coming on, he began to apprehend being either starved to death with cold and hunger, or else devoured by the wolves, whom he heard howling all around him.",
+		"Options": false,
+		"Next": ["cont_6a"]
+	},
+	"cont_6a": {
+		"Char": "Narrator",
+		"Text": "When, on a sudden, looking through a long walk of trees, he saw a light at some distance, and going on a little farther, perceived it came from a palace illuminated from top to bottom.",
 		"Options": false,
 		"Next": ["cont_7"]
 	},
@@ -50,7 +74,7 @@
 	},
 	"cont_8": {
 		"Char": "Samuel",
-		"Text": "Hello? Anyone here? The wind is bitterly cold and my horse is in need of shelter hope you don't mind...",
+		"Text": "Hello? Anyone here? The wind is bitterly cold and my horse is in need of shelter. I hope you do not mind...",
 		"Options": false,
 		"Next": ["cont_9"]
 	},
@@ -74,7 +98,19 @@
 	},
 	"cont_12": {
 		"Char": "Narrator",
-		"Text": "He waited a considerable time, till it struck eleven, and still nobody came: at last he was so hungry that he could stay no longer, but took a chicken and ate it in two mouthfuls, trembling all the while. After this, he drank a few glasses of wine, and growing more courageous, he went out of the hall, and crossed through several grand apartments with magnificent furniture, till he came into a chamber, which had an exceeding good bed in it, and as he was very much fatigued, and it was past midnight, he concluded it was best to shut the door, and go to bed",
+		"Text": "He waited a considerable time, till it struck eleven, and still nobody came: at last he was so hungry that he could stay no longer, but took a chicken and ate it in two mouthfuls, trembling all the while.",
+		"Options": false,
+		"Next": ["cont_12a"]
+	},
+	"cont_12a": {
+		"Char": "Narrator",
+		"Text": "After this, he drank a few glasses of wine, and growing more courageous, he went out of the hall, and crossed through several grand apartments with magnificent furniture, till he came into a chamber, which had an exceeding good bed in it.",
+		"Options": false,
+		"Next": ["cont_12b"]
+	},
+	"cont_12b": {
+		"Char": "Narrator",
+		"Text": "As he was very much fatigued and it was past midnight, he concluded it was best to shut the door, and go to bed.",
 		"Options": false,
 		"Next": ["cont_13"]
 	},
@@ -97,14 +133,14 @@
 		"Next": ["cont_16"]
 	},
 	"cont_16": {
-		"Char": "Narrator",
+		"Char": "Samuel",
 		"Text": "Thank you, good Madam Fairy, for being so careful as to provide me a breakfast! I am extremely obliged to you for all your favours.",
 		"Options": false,
 		"Next": ["cont_17"]
 	},
 	"cont_17": {
 		"Char": "Narrator",
-		"Text": "The good man drank his chocolate, and then went to look for his horse; but passing through an arbour of roses, he remembered Beauty's request to him, and gathered a branch on which were several.",
+		"Text": "The good man drank his chocolate, and then went to look for his horse; but passing through an arbour of roses, he remembered Sophia's request to him, and gathered a branch on which were several.",
 		"Options": false,
 		"Next": ["cont_18"]
 	},
@@ -116,7 +152,7 @@
 	},
 	"cont_19": {
 		"Char": "Beast",
-		"Text": "You are very ungrateful. *Hoot* I have saved your life by receiving you into my castle, and, in return, you steal my roses, which I value beyond any thing in the universe!",
+		"Text": "You are very ungrateful. *Hoot* I have saved your life by receiving you into my castle, and, in return, you steal my roses, which I value beyond any thing!",
 		"Options": false,
 		"Next": ["cont_20"]
 	},
@@ -128,7 +164,7 @@
 	},
 	"cont_21": {
 		"Char": "Samuel",
-		"Text": "My Lord, I beseech you to forgive me, indeed I had no intention to offend in gathering a rose for one of my daughters, who desired me to bring her one",
+		"Text": "My Lord, I beseech you to forgive me, indeed I had no intention to offend in gathering a rose for one of my daughters, who desired me to bring her one.",
 		"Options": false,
 		"Next": ["cont_22"]
 	},
@@ -152,7 +188,7 @@
 	},
 	"cont_25": {
 		"Char": "Narrator",
-		"Text": "The merchant had no mind to sacrifice his daughters to the ugly monster, but he thought, in obtaining this respite, he should have the satisfaction of seeing them once more",
+		"Text": "The merchant had no mind to sacrifice his daughters to the ugly monster, but he thought, in obtaining this respite, he should have the satisfaction of seeing them once more.",
 		"Options": false,
 		"Next": ["cont_26"]
 	},

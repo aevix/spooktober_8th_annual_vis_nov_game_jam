@@ -50,7 +50,7 @@
 	},
 	"cont_8": {
 		"Char": "Narrator",
-		"Text": "The tenth night she spent at her father's, she dreamed she was in the palace garden, and that she saw Beast extended on the grass-plot, who seemed just expiring, and, in a dying voice, reproached her with her ingratitude. Sophia started out of her sleep and bursting into tears",
+		"Text": "The tenth night she spent at her father's, she dreamed she was in the palace garden, and that she saw Beast extended on the grass-plot, who seemed just expiring, and, in a dying voice, reproached her with her ingratitude. Sophia started out of her sleep and bursting into tears.",
 		"Options": false,
 		"Next": ["cont_9"]
 	},
@@ -63,8 +63,14 @@
 	"cont_10": {
 		"Char": "Sophia",
 		"Text": "Is it his fault that he is so ugly, and has so little sense? He is kind and good, and that is sufficient. Why did I refuse to marry him?",
+		"Options": true,
+		"Next": ["cont_11", "cont_11a"]
+	},
+	"cont_11a": {
+		"Char": "Sophia",
+		"Text": "Is it his fault that he is so ugly, and has so little sense? I am sure I would have married him if he had been a prince.",
 		"Options": false,
-		"Next": ["cont_11"]
+		"Next": ["cont_12a"]
 	},
 	"cont_11": {
 		"Char": "Sophia",
@@ -72,15 +78,31 @@
 		"Options": false,
 		"Next": ["cont_12"]
 	},
+	"cont_12a": {
+		"Char": "Sophia",
+		"Text": "My sisters get to marry men of wit and beauty, why am I stuck with this beast?",
+		"Options": false,
+		"Next": ["cont_13b"]
+	},
 	"cont_12": {
 		"Char": "Sophia",
 		"Text": "It is neither wit nor a fine person in a husband, that makes a woman happy; but virtue, sweetness of temper, and complaisance: and Beast has all these valuable qualifications.",
 		"Options": false,
 		"Next": ["cont_13"]
 	},
+	"cont_13b": {
+		"Char": "Sophia",
+		"Text": "It is true, I do not feel the tenderness of affection for him, but he does have a lot of wealth; and I would be a fool like my father to reject him, I should never forgive myself.",
+		"Options": false,
+		"Next": ["check_point"]
+	},
 	"cont_13": {
 		"Char": "Sophia",
 		"Text": "It is true, I do not feel the tenderness of affection for him, but I find I have the highest gratitude, esteem, and friendship; and I will not make him miserable; were I to be so ungrateful, I should never forgive myself.",
+		"Options": false,
+		"Next": ["check_point"]
+	},
+	"check_point": {
 		"Options": false,
 		"Next": ["cont_14"]
 	},
@@ -140,7 +162,7 @@
 	},
 	"cont_23": {
 		"Char": "Narrator",
-		"Text": "Sophia scarcely had pronounced these words, when she saw the palace sparkle with light; and fireworks, instruments of music, every thing, seemed to give notice of some great event",
+		"Text": "Sophia scarcely had pronounced these words, when she saw the palace sparkle with light; and fireworks, instruments of music, every thing, seemed to give notice of some great event.",
 		"Options": false,
 		"Next": ["cont_24"]
 	},
@@ -152,7 +174,7 @@
 	},
 	"cont_25": {
 		"Char": "Narrator",
-		"Text": "But how great was her surprise! Beast had disappeared, and she saw, at her feet, one of the loveliest Princes that eye ever beheld",
+		"Text": "But how great was her surprise! Beast had disappeared, and she saw, at her feet, one of the loveliest Princes that eye ever beheld.",
 		"Options": false,
 		"Next": ["cont_26"]
 	},
@@ -211,7 +233,7 @@
 		"Next": ["cont_35"]
 	},
 	"cont_35": {
-		"Char": "Fairy",
+		"Char": "Narrator",
 		"Text": "Immediately I gave a stroke with my wand, and in a moment all that were in the hall were transported into the Prince's palace.",
 		"Options": false,
 		"Next": ["cont_36"]

@@ -1,13 +1,26 @@
 [gd_scene format=3 uid="uid://db1odbgq5e5wp"]
 
 [ext_resource type="Script" uid="uid://bibwyvxjx4y46" path="res://act_1.gd" id="1_hiyrx"]
-[ext_resource type="Texture2D" uid="uid://3sy5ftq8kiv5" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/08.png" id="2_r1bly"]
+[ext_resource type="Texture2D" uid="uid://dk0fvq6wm170" path="res://asset/background/act_2.png" id="2_r1bly"]
 [ext_resource type="PackedScene" uid="uid://blygt5wywhdy5" path="res://DialogSystem.tscn" id="3_7ek02"]
+[ext_resource type="PackedScene" uid="uid://bg7k8hml7gc5q" path="res://sound_setting.tscn" id="4_7ek02"]
 
 [node name="act_2" type="Control" unique_id=1381019494]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_hiyrx")
+
+[node name="volume" type="Label" parent="." unique_id=239628409]
+top_level = true
+layout_mode = 0
+offset_left = 100.0
+offset_top = 80.0
+offset_right = 147.0
+offset_bottom = 103.0
+text = "Sound"
+
+[node name="sound_setting" parent="volume" unique_id=51623868 instance=ExtResource("4_7ek02")]
+position = Vector2(55, 0)
 
 [node name="background" type="Sprite2D" parent="." unique_id=905962060]
 position = Vector2(650, 362)
