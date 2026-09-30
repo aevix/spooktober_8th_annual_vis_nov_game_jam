@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://b2hdnj0glxod7"]
 
-[ext_resource type="Texture2D" uid="uid://cotwuuiwbxd18" path="res://asset/big_assets/background/NatureBGPack_NonCommercial/05.png" id="1_oqkmi"]
 [ext_resource type="Script" uid="uid://ca17lnv6q1gj8" path="res://introduction.gd" id="1_qebxn"]
 [ext_resource type="PackedScene" uid="uid://blygt5wywhdy5" path="res://DialogSystem.tscn" id="3_f37s4"]
+[ext_resource type="Texture2D" uid="uid://bjqx3w8hgfbuv" path="res://asset/background/introduction.png" id="3_kot8c"]
+[ext_resource type="PackedScene" uid="uid://bg7k8hml7gc5q" path="res://sound_setting.tscn" id="4_kot8c"]
 
-[node name="Control" type="Control" unique_id=1014178176]
+[node name="introduction" type="Control" unique_id=1014178176]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -13,23 +14,36 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_qebxn")
 
+[node name="volume" type="Label" parent="." unique_id=2127530388]
+top_level = true
+layout_mode = 0
+offset_left = 100.0
+offset_top = 80.0
+offset_right = 147.0
+offset_bottom = 103.0
+text = "Sound"
+
+[node name="sound_setting" parent="volume" unique_id=51623868 instance=ExtResource("4_kot8c")]
+position = Vector2(55, 0)
+
+[node name="background" type="Sprite2D" parent="." unique_id=984974113]
+position = Vector2(640, 365)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("3_kot8c")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=690971027]
+position = Vector2(641, 362)
+
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1530268236]
 
 [node name="DialogSystem" parent="CanvasLayer" unique_id=502920662 instance=ExtResource("3_f37s4")]
 anchors_preset = -1
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 95.0
-offset_top = 441.0
-offset_right = 95.0
-offset_bottom = 441.0
+offset_left = 104.0
+offset_top = 427.0
+offset_right = 104.0
+offset_bottom = 427.0
 grow_horizontal = 2
 grow_vertical = 2
-
-[node name="background" type="Sprite2D" parent="." unique_id=984974113]
-position = Vector2(640, 365)
-scale = Vector2(0.7, 0.7)
-texture = ExtResource("1_oqkmi")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=690971027]
-position = Vector2(641, 362)
+scale = Vector2(0.8800005, 0.40000138)

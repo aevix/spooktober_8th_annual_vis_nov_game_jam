@@ -8,27 +8,27 @@
 	],
 	"cont_1": {
 		"Char": "Narrator",
-		"Text": "But, instead of receiving their embraces with pleasure, he looked on them, and, holding up the branch he had in his hands, he burst into tears",
+		"Text": "But, instead of receiving their embraces with pleasure, he looked on them, and, holding up the branch he had in his hands, burst into tears.",
 		"Options": false,
 		"Next": ["cont_2"]
 	},
 	"cont_2": {
 		"Char": "Samuel",
-		"Text": "Here, Sophia, take these roses; but little do you think how dear they are like to cost your unhappy father",
+		"Text": "Here, Sophia, take these roses; but little do you think how dear they are like to cost your unhappy father.",
 		"Options": false,
 		"Next": ["cont_3"]
 	},
 	"cont_3": {
 		"Char": "Narrator",
-		"Text": "He related his fatal adventure: immediately the two eldest set up lamentable outcries, and said all manner of ill-natured things to Sophia, who did not cry at all",
+		"Text": "He related his fatal adventure: immediately the two eldest set up lamentable outcries, and said all manner of ill-natured things to Sophia, who did not cry at all.",
 		"Options": false,
 		"Next": ["cont_4"]
 	},
 	"cont_4": {
 		"Char": "Eleanor",
-		"Text": "Do but see the pride of that little wretch. She would not ask for fine clothes, as we did; but no, truly, Miss wanted to distinguish herself; so now she will be the death of our poor father, and yet she does not so much as shed a tear.",
-		"Options": false,
-		"Next": ["cont_5"]
+		"Text": "Do but see the pride of that little wretch. She will be the death of our poor father, and yet she does not so much as shed a tear.",
+		"Options": true,
+		"Next": ["cont_5", "cont_5a"]
 	},
 	"cont_5": {
 		"Char": "Sophia",
@@ -36,15 +36,33 @@
 		"Options": false,
 		"Next": ["cont_6"]
 	},
+	"cont_5a": {
+		"Char": "Sophia",
+		"Text": "Why should I, it would be very needless, I did not ask him to risk his life but he did foolishly, he is just paying the price for his own folly.",
+		"Options": false,
+		"Next": ["cont_6a"]
+	},
 	"cont_6": {
 		"Char": "Samuel",
 		"Text": "I am charmed with Sophia's kind and generous offer, but I cannot yield to it; I am old, and have not long to live, so can only lose a few years, which I regret for your sakes alone, my dear children.",
 		"Options": false,
 		"Next": ["cont_7"]
 	},
+	"cont_6a": {
+		"Char": "Samuel",
+		"Text": "Yes indeed, it is my own fault, I should have been more careful. But at the palace of the Beast there was the most beautiful dress I ever saw. Would you like to see it, Sophia? You can come with me to the palace, and I will show it to you.",
+		"Options": false,
+		"Next": ["cont_7a"]
+	},
 	"cont_7": {
 		"Char": "Sophia",
 		"Text": "Indeed, father, you shall not go to the palace without me, you cannot hinder me from following you.",
+		"Options": false,
+		"Next": ["cont_8"]
+	},
+	"cont_7a": {
+		"Char": "Sophia",
+		"Text": "Indeed, father, you shall not go to the palace without me, you cannot hinder me from following you. I also want to see the beast with my own eyes, and I am sure he is not so frightful as you say.",
 		"Options": false,
 		"Next": ["cont_8"]
 	},
@@ -80,7 +98,7 @@
 	},
 	"cont_13": {
 		"Char": "Narrator",
-		"Text": "When they had supped, they heard a great noise, and the merchant, all in tears, bid his poor child farewell, for he thought Beast was coming. Sophia was sadly terrified at his horrid form, but she took courage as well as she could, and the monster having asked her if she came willingly",
+		"Text": "When they had supped, they heard a great noise, and the merchant, all in tears, bid his poor child farewell, for he thought Beast was coming. Sophia was sadly terrified at his horrid form, but she took courage as well as she could, and the monster having asked her if she came willingly.",
 		"Options": false,
 		"Next": ["cont_14"]
 	},
@@ -98,31 +116,49 @@
 	},
 	"cont_16": {
 		"Char": "Beast",
-		"Text": "You are very good, and I am greatly obliged to you; honest man, go your ways tomorrow morning, but never think of returning here again. Farewell, Sophia.",
-		"Options": false,
-		"Next": ["cont_17"]
-	},
-	"cont_17": {
-		"Char": "Sophia",
-		"Text": "Farewell, Beast.",
+		"Text": "You are very good, and I am greatly obliged to you; honest man, go your ways tomorrow morning, but never think of returning here again. Farewell, Samuel.",
 		"Options": false,
 		"Next": ["cont_18"]
 	},
 	"cont_18": {
 		"Char": "Samuel",
 		"Text": "Oh, daughter, I am almost frightened to death; believe me, you had better go back, and let me stay here.",
-		"Options": false,
-		"Next": ["cont_19"]
+		"Options": true,
+		"Next": ["cont_19", "cont_19a"]
 	},
 	"cont_19": {
 		"Char": "Sophia",
-		"Text": "No, father, you shall set out tomorrow morning, and leave me to the care and protection of Providence",
+		"Text": "No, father, you shall set out tomorrow morning, and leave me to the care and protection of Providence.",
 		"Options": false,
 		"Next": ["cont_20"]
 	},
+	"cont_19a": {
+		"Char": "Sophia",
+		"Text": "Yes, father, I shall set out tomorrow morning, and leave you to the care and protection of Providence.",
+		"Options": false,
+		"Next": ["cont_20a"]
+	},
+	"cont_20a": {
+		"Char": "Narrator",
+		"Text": "At that moment the Beast returned with a Hoot!",
+		"Options": false,
+		"Next": ["cont_20b"]
+	},
+	"cont_20b": {
+		"Char": "Beast",
+		"Text": "*HOOT!* You dare to disobey me, I shall lock both of you up in the dungeon!",
+		"Options": false,
+		"Next": ["cont_20c"]
+	},
+	"cont_20c": {
+		"Char": "Narrator",
+		"Text": "They both tried their best to get some rest, but could not get a wink of sleep. They both awoke in the morning, and the merchant was setting out for home.",
+		"Options": false,
+		"Next": ["cont_23"]
+	},
 	"cont_20": {
 		"Char": "Narrator",
-		"Text": "They went to bed, and thought they should not close their eyes all night; but scarce were they laid down, than they fell fast asleep; and Sophia dreamed, a fine lady came",
+		"Text": "They went to bed, and thought they should not close their eyes all night; but scarce were they laid down, than they fell fast asleep; and Sophia dreamed, a fine lady came.",
 		"Options": false,
 		"Next": ["cont_21"]
 	},
@@ -163,22 +199,22 @@
 		"Next": ["cont_27"]
 	},
 	"cont_27": {
-		"Char": "Narrator",
+		"Char": "Sophia",
 		"Text": "Were I but to stay here a day, there would not have been all these preparations.",
 		"Options": false,
 		"Next": ["cont_28"]
 	},
 	"cont_28": {
 		"Char": "Narrator",
-		"Text": "This consideration inspired her with fresh courage; and opening the library, she took a book, and read these words in letters of gold",
+		"Text": "This consideration inspired her with fresh courage; and opening the library, she took a book, and read these words in letters of gold.",
 		"Options": false,
 		"Next": ["cont_29"]
 	},
 	"cont_29": {
 		"Char": "Book",
 		"Text": "Welcome, Sophia, banish fear,\nYou are queen and mistress here;\nSpeak your wishes, speak your will,\nSwift obedience meets them still.",
-		"Options": false,
-		"Next": ["cont_30"]
+		"Options": true,
+		"Next": ["cont_30", "cont_30a"]
 	},
 	"cont_30": {
 		"Char": "Sophia",
@@ -186,9 +222,21 @@
 		"Options": false,
 		"Next": ["cont_31"]
 	},
+	"cont_30a": {
+		"Char": "Sophia",
+		"Text": "Oh goody I knew it! I am the queen of this castle, and I can do whatever I want!",
+		"Options": false,
+		"Next": ["cont_31"]
+	},
 	"cont_31": {
 		"Char": "Narrator",
-		"Text": "She had no sooner said this, when casting her eyes on a great looking-glass, to her great amazement she saw her own home, where her father arrived with a very dejected countenance; her sisters went to meet him, and, notwithstanding their endeavours to appear sorrowful, their joy, felt for having got rid of their sister, was visible in every feature: a moment after, every thing disappeared, and Sophia's apprehensions at this proof of Beast's complaisance.",
+		"Text": "She had no sooner said this, when casting her eyes on a great looking-glass, to her great amazement she saw her own home, where her father arrived with a very dejected countenance.",
+		"Options": false,
+		"Next": ["cont_32"]
+	},
+	"cont_32": {
+		"Char": "Narrator",
+		"Text": "Her sisters went to meet him, and, notwithstanding their endeavours to appear sorrowful, their joy, felt for having got rid of their sister, was visible in every feature: a moment after, every thing disappeared, and Sophia's apprehensions at this proof of Beast's complaisance.",
 		"Options": false,
 		"Next": []
 	}

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bg7k8hml7gc5q"]
+
+[ext_resource type="Script" uid="uid://bj67h7f64ssmc" path="res://h_slider.gd" id="1_4cu74"]
+
+[node name="sound_setting" type="Node2D" unique_id=51623868]
+
+[node name="HSlider" type="HSlider" parent="." unique_id=645379786]
+custom_minimum_size = Vector2(200, 0)
+offset_right = 8.0
+offset_bottom = 16.0
+mouse_force_pass_scroll_events = false
+max_value = 1.0
+step = 0.01
+script = ExtResource("1_4cu74")
+
+[connection signal="mouse_entered" from="HSlider" to="HSlider" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="HSlider" to="HSlider" method="_on_mouse_exited"]
+[connection signal="value_changed" from="HSlider" to="HSlider" method="_on_value_changed"]

@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bglgp8yiqomku"]
+
+[ext_resource type="Script" uid="uid://bibwyvxjx4y46" path="res://act_1.gd" id="1_oxijx"]
+[ext_resource type="Texture2D" uid="uid://dwvhnyklsuofq" path="res://asset/background/act_4.png" id="2_oxijx"]
+[ext_resource type="PackedScene" uid="uid://blygt5wywhdy5" path="res://DialogSystem.tscn" id="3_qy37q"]
+[ext_resource type="PackedScene" uid="uid://bg7k8hml7gc5q" path="res://sound_setting.tscn" id="4_nws1s"]
+
+[node name="act_4" type="Control" unique_id=1381019494]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_oxijx")
+
+[node name="volume" type="Label" parent="." unique_id=299271437]
+top_level = true
+layout_mode = 0
+offset_left = 100.0
+offset_top = 80.0
+offset_right = 147.0
+offset_bottom = 103.0
+text = "Sound"
+
+[node name="sound_setting" parent="volume" unique_id=51623868 instance=ExtResource("4_nws1s")]
+position = Vector2(55, 0)
+
+[node name="background" type="Sprite2D" parent="." unique_id=905962060]
+position = Vector2(650, 362)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("2_oxijx")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=794407254]
+position = Vector2(650, 362)
+scale = Vector2(0.7, 0.7)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=88044271]
+
+[node name="DialogSystem" parent="CanvasLayer" unique_id=502920662 instance=ExtResource("3_qy37q")]
+offset_left = 114.0
+offset_top = 450.0
+offset_right = 114.0
+offset_bottom = 450.0

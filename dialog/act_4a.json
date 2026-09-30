@@ -1,0 +1,141 @@
+{
+	"Char": "Narrator",
+	"Text": "Sophia having said this, rose, put her ring on the table, and then laid down again; scarce was she in bed before she fell asleep.",
+	"Next_Scene": "title_card",
+	"Options": false,
+	"Next": [
+		"cont_15"
+	],
+	"cont_15": {
+		"Char": "Narrator",
+		"Text": "When she waked the next morning, she was overjoyed to find herself in the Beast's palace.",
+		"Options": false,
+		"Next": ["cont_16"]
+	},
+	"cont_16": {
+		"Char": "Narrator",
+		"Text": "She put on one of her richest suits to please him, and waited for evening with the utmost impatience; at last the wished-for hour came, the clock struck nine, yet no Beast appeared.",
+		"Options": false,
+		"Next": ["cont_17"]
+	},
+	"cont_17": {
+		"Char": "Narrator",
+		"Text": "Sophia then feared she had been rejected; she ran crying and wringing her hands all about the palace, like one in despair; after having sought for him every where, she recollected her dream, and flew to the canal in the garden, where she dreamed she saw him.",
+		"Options": false,
+		"Next": ["cont_18"]
+	},
+	"cont_18": {
+		"Char": "Narrator",
+		"Text": "There she found poor Beast stretched out, quite senseless, and, as she imagined, dead.",
+		"Options": false,
+		"Next": ["cont_19"]
+	},
+	"cont_19": {
+		"Char": "Narrator",
+		"Text": "She threw herself upon him without any dread, and finding his heart beat still, she fetched some water from the canal, and poured it on his head. Beast opened his eyes.",
+		"Options": false,
+		"Next": ["cont_20"]
+	},
+	"cont_20": {
+		"Char": "Beast",
+		"Text": "You forgot your promise, and I was so afflicted for having lost you, that I resolved to starve myself; but since I have the happiness of seeing you once more, I die satisfied.",
+		"Options": false,
+		"Next": ["cont_21"]
+	},
+	"cont_21": {
+		"Char": "Sophia",
+		"Text": "Oh, dear Beast, you are even dramatic even nearing death,you must not die; from this moment I give you my hand, and I will declare offically the owner of this castle.",
+		"Options": false,
+		"Next": ["cont_22"]
+	},
+	"cont_22": {
+		"Char": "Sophia",
+		"Text": "Alas! I thought I couldn't marry you because of your appearance, but I can overlook that knowing I get all this...",
+		"Options": false,
+		"Next": ["cont_23"]
+	},
+	"cont_23": {
+		"Char": "Narrator",
+		"Text": "Sophia scarcely had pronounced these words, when she saw the palace sparkle with light; and fire, mist, explosion, seemed to give notice of some great event",
+		"Options": false,
+		"Next": ["cont_24"]
+	},
+	"cont_24": {
+		"Char": "Narrator",
+		"Text": "This startled Sophia, and quickly rose to her feet; she turned to her dear Beast, for whom she trembled with fear.",
+		"Options": false,
+		"Next": ["cont_25"]
+	},
+	"cont_25": {
+		"Char": "Narrator",
+		"Text": "But how great was her surprise! Beast had disappeared, and she saw, at her feet, one of the loveliest Princes that eye ever beheld.",
+		"Options": false,
+		"Next": ["cont_26"]
+	},
+	"cont_26": {
+		"Char": "Prince",
+		"Text": "Thank you, Sophia, for having saved me from the most cruel curse that was cast upon me.",
+		"Options": false,
+		"Next": ["cont_27"]
+	},
+	"cont_27": {
+		"Char": "Sophia",
+		"Text": "But what has become of the monster?",
+		"Options": false,
+		"Next": ["cont_28"]
+	},
+	"cont_28": {
+		"Char": "Prince",
+		"Text": "You see him at your feet, a wicked witch had condemned me to remain under that shape till I could meet someone more evil than I.",
+		"Options": false,
+		"Next": ["cont_29"]
+	},
+	"cont_29": {
+		"Char": "Prince",
+		"Text": "The witch likewise enjoined me to conceal my understanding; there was only you in the world evil enough to be won by the goodness of my wealth; and in offering you my crown, you can't discharge the obligations the curse have to you.",
+		"Options": false,
+		"Next": ["cont_30"]
+	},
+	"cont_30": {
+		"Char": "Witch",
+		"Text": "Sophia, come and reap the reward of your wicked choice; you have preferred wealth before virtue, and deserve to find a person in who are more evil than yourself.",
+		"Options": false,
+		"Next": ["cont_31"]
+	},
+	"cont_31": {
+		"Char": "Witch",
+		"Text": "You are going to be turned into a miserable beastly Queen; I hope the throne will lessen your ego, and make you forget yourself.",
+		"Options": false,
+		"Next": ["cont_32"]
+	},
+	"cont_32": {
+		"Char": "Witch",
+		"Text": "As to you, ladies, (said the Witch to Sophia's two sisters who suddenly appeared with a swish of her wand,) I know your hearts are aligned with Sophia's: become two statues; but, under this transformation, still retain your reason.",
+		"Options": false,
+		"Next": ["cont_33"]
+	},
+	"cont_33": {
+		"Char": "Witch",
+		"Text": "You shall stand before your sister's gate, and be it your punishment to behold her misery; and it will not be in your power to return to your former state till she owns her faults; but I am very much afraid that you will always remain statues.",
+		"Options": false,
+		"Next": ["cont_34"]
+	},
+	"cont_34": {
+		"Char": "Witch",
+		"Text": "Pride, anger, gluttony, and idleness, are sometimes conquered, but the conversion of a malicious and envious mind is a kind of miracle.",
+		"Options": false,
+		"Next": ["cont_35"]
+	},
+	"cont_35": {
+		"Char": "Narrator",
+		"Text": "Immediately I gave a stroke with my wand, and in a moment all that were in the hall were transported into a old rickity cottage.",
+		"Options": false,
+		"Next": ["cont_36"]
+	},
+	"cont_36": {
+		"Char": "Witch",
+		"Text": "She and her sisters began crying; the prince left the cottage without looking back, and Sophia ramined cursed for many years; and their sadness, as it was founded on evil, was to continue.",
+		"Options": false,
+		"Next": []
+	}
+}
